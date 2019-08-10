@@ -48,8 +48,16 @@ urlpatterns = [
 ]
 ~~~
 crud 앱에 urls 가 없기 떄문에 `urls.py`생성 후 다음 입력
+~~~python
+from django.urls import path
+from . import views
+
+urlpatterns =[
+    path('', views.list, name = "list"),
+]
 ~~~
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2MTY0MzQ0LDE5MDA1NTk3NTEsOTA0Nj
-IwOTg4LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbMTA5MTc0MjYwOSwxOTAwNTU5NzUxLDkwND
+YyMDk4OCwtMTIwNjc0OTY2NiwtMzMyNDU1MzYzXX0=
 -->
