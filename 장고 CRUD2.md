@@ -143,7 +143,7 @@ html 과 url작업은 read와 같다.
 ~views.py~
 ~~~python
 def edit(request, id):
-    post = Post.object.get(pk=id)
+    post = Post.objects.get(pk=id)
     return render(request, 'edit.html', {'post':post})
 
 def update(request, id):
@@ -187,6 +187,6 @@ edit.html
 </form>
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTM1NzkwNCwxNDMzMjY4NTAyLDEwMz
-YwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTIxMTAxMDk4MDMsMTQzMzI2ODUwMiwxMD
+M2MDYyMTE5LDczMDk5ODExNl19
 -->
