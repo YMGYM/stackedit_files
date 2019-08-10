@@ -141,7 +141,7 @@ def new(request):
     return render(request, 'new.html')
 
 def create(request):
-    if request.method == 'POST'
+    if request.method == 'POST':
         title = request.POST.get(title)
         content = request.POST.get(content)
         
@@ -151,8 +151,8 @@ def create(request):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDA2Nzk1OCwtMTY0OTI5NjcwNywtMj
-AyNDYxNTk1NiwyMTY5NDIyMDYsLTI4NDM4Mzk5OSwxODQ3ODY1
-MjM1LDM5NzU2MzcwNCwxOTAwNTU5NzUxLDkwNDYyMDk4OCwtMT
-IwNjc0OTY2NiwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTE4MTY3Njg3NTgsLTE2NDkyOTY3MDcsLT
+IwMjQ2MTU5NTYsMjE2OTQyMjA2LC0yODQzODM5OTksMTg0Nzg2
+NTIzNSwzOTc1NjM3MDQsMTkwMDU1OTc1MSw5MDQ2MjA5ODgsLT
+EyMDY3NDk2NjYsLTMzMjQ1NTM2M119
 -->
