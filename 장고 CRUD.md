@@ -102,6 +102,12 @@ python manage.py migrate
 ~~~
 
 마이그레이션을 완료한다.
+
+## Create
+
+입력하기 위해 새로운 입력 페이지를 제작.
+`new.html` 을 사용하겠다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzg3NTQxNSw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbMTQxNTg2Mjc5MCw5MDQ2MjA5ODhdfQ==
 -->
