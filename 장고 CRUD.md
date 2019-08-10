@@ -106,6 +106,8 @@ python manage.py migrate
 입력하기 위해 새로운 입력 페이지를 제작.
 `new.html` 을 사용하겠다.
 
+url작업은 위와 같다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg1MDI2MDQsOTA0NjIwOTg4XX0=
+eyJoaXN0b3J5IjpbMjE2OTQyMjA2LDkwNDYyMDk4OF19
 -->
