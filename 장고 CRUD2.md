@@ -140,7 +140,7 @@ read.html은 다음과 같다.
 
 html 과 url작업은 read와 같다.
 
-~views.py
+~views.py~
 ~~~python
 def edit(request, id):
     post = Post.object.get(pk=id)
@@ -159,8 +159,11 @@ def update(request, id):
         return redirect('crud:read', post.id)
 ~~~
 
+`urls.py`
+~~~python
+
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzODk5MTgsMTQzMzI2ODUwMiwxMD
+eyJoaXN0b3J5IjpbLTE5NDM5ODQyMzEsMTQzMzI2ODUwMiwxMD
 M2MDYyMTE5LDczMDk5ODExNl19
 -->
