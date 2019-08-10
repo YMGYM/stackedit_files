@@ -47,7 +47,15 @@ urlpatterns = [
     path('crud/', include(crud_urls)),
 ]
 ~~~
-crud 앱에 urls 가 없기 떄문에 `urls.py`생성 후 다음 
+crud 앱에 urls 가 없기 떄문에 `urls.py`생성 후 다음 입력
+~~~python
+from django.urls import path
+from . import views
+
+urlpatterns =[
+    path('', views.list, name = "list"),
+]
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODQ5NTgyNCw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbMTY3OTQ2NDk5NSw5MDQ2MjA5ODhdfQ==
 -->
