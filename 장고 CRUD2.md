@@ -109,8 +109,12 @@ urlpatterns =[
 
 urls.py에서는 url을 통해 id값을 넘겨받아야 하므로, 다음과 같이 작성한다.
 
+read.html은 다음과 같다.
+~~~html
+
+~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNjU5NjgwLDEwMzYwNjIxMTksNzMwOT
+eyJoaXN0b3J5IjpbNDM1NzMwMTY3LDEwMzYwNjIxMTksNzMwOT
 k4MTE2XX0=
 -->
