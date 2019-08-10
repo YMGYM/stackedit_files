@@ -10,7 +10,7 @@ tags:
 
 
 
-# 장고 CRUD
+# 장고 CRUD-1
 > 
 > 공백기(?) 동안 멋쟁이사자처럼 장고 인강을 들으며 CRUD 공부를 했다.
 > 역시 장고 사이트의 설명보단, 멋사 인강이 훨씬 나은것 같다..
@@ -103,7 +103,7 @@ python manage.py migrate
 
 마이그레이션을 완료한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc2MDg2Mzg3LC0yODQzODM5OTksMTg0Nz
-g2NTIzNSwzOTc1NjM3MDQsMTkwMDU1OTc1MSw5MDQ2MjA5ODgs
-LTEyMDY3NDk2NjYsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMTkzNzg3NTQxNSwtMjg0MzgzOTk5LDE4ND
+c4NjUyMzUsMzk3NTYzNzA0LDE5MDA1NTk3NTEsOTA0NjIwOTg4
+LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
 -->
