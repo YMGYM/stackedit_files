@@ -172,8 +172,21 @@ urlpatterns =[
 ~~~
 
 
+~~~html
+<h2>
+    파일 수정하기
+</h2>
 
+<form action="{% url 'crud:update', post.id %}" method="POST">
+    {% csrf_token %}
+    <label>제목</label><br>
+    <input type="text" name="title" value="{{ post.titme }}"><br>
+    <label>글 내용</label><br>
+    <textarea name="content">{{ post.content }}</textarea><br>
+    <input type="submit" value="제출">
+</form>
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ5Njc2NTMsMTQzMzI2ODUwMiwxMD
-M2MDYyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTc1ODQwOTE5OCwxNDMzMjY4NTAyLDEwMz
+YwNjIxMTksNzMwOTk4MTE2XX0=
 -->
