@@ -33,9 +33,9 @@ Superuser created successfully.
 
 ~~~
 admin 사이트에 접속 할 경우 내가 생성한 모델은 나오지 않기 때문에 모델을 register해 주어야 한다.
-
+이는 `admin.py`에서 진행한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjQzNDkyNSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTY4NTc3ODA2OCw3MzA5OTgxMTZdfQ==
 -->
