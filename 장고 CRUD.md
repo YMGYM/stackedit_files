@@ -26,6 +26,9 @@ tags:
 구름 IDE에서는 프로젝트 생성까지 편하게 할 수 있다.
 
 ## 앱 생성
+
+원하는 디렉토리로 가서 앱을 생성한다. `python manage.py startapp [appname]`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY3NDk2NjZdfQ==
+eyJoaXN0b3J5IjpbLTczNzQxMzI1OV19
 -->
