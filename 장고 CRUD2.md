@@ -123,7 +123,7 @@ read.html은 다음과 같다.
     {{ post.content }}
 </p>
 
-<a href="#">수정</a><a href="#">삭제</a>
+<a href="#">수정</a>  <a href="#">삭제</a>
 ~~~
 
 
@@ -135,6 +135,6 @@ read.html은 다음과 같다.
 </h5>
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMyMTAyMjUsMTAzNjA2MjExOSw3Mz
+eyJoaXN0b3J5IjpbLTE4MzMyOTY4MTcsMTAzNjA2MjExOSw3Mz
 A5OTgxMTZdfQ==
 -->
