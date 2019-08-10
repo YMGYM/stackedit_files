@@ -101,7 +101,7 @@ python manage.py makemigrations
 python manage.py migrate
 ~~~
 
-
+마이그레이션을 완료한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjc1MzU2OSw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbNjc2MDg2Mzg3LDkwNDYyMDk4OF19
 -->
