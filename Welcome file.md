@@ -61,8 +61,10 @@ urlpatterns =[
 같은 앱에서 views를 불러와 연결시킬 수 있다.
 app_name을 사용해서 url의 이름을 지정했다. rails의 컨트롤러 기능과 유사한 것 같다.
 )
+`views.py`에 list액션이 없기 때문에 생성한다
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NTYzNzA0LC03MjA3NjA1ODksMTkwMD
-U1OTc1MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2
-M119
+eyJoaXN0b3J5IjpbLTIwMDgwNDk5MzAsMzk3NTYzNzA0LDE5MD
+A1NTk3NTEsOTA0NjIwOTg4LC0xMjA2NzQ5NjY2LC0zMzI0NTUz
+NjNdfQ==
 -->
