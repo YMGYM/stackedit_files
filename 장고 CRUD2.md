@@ -49,6 +49,12 @@ admin.site.register(Post)
     def __str__(self):
         return self.title
 ~~~
+
+모델을 수정했지만, 따로 마이그레이션을 다시 할 필요는 없이 바로 적용되는 듯하다. 
+아마 column을 수정한 것은 아니라서 그런 것 같다. 데이터베이스를 직접 수정한 것은 아니라서..
+
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg5ODAwMzksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTI1MDAyNzY3OSw3MzA5OTgxMTZdfQ==
 -->
