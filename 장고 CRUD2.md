@@ -193,8 +193,9 @@ edit.html
 ~~~
 
 
-
+## Delete
+delete도 방법은 같다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ5NzI2ODYsMTQzMzI2ODUwMiwxMD
-M2MDYyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNjg3ODM0MTc1LDE0MzMyNjg1MDIsMTAzNj
+A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
