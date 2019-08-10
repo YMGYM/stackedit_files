@@ -35,7 +35,21 @@ tags:
 ## URL 설정
 프로젝트 이름과 똑같은 폴더에 `urls.py`에 url을 설정한다.
 
+~~~ python
+from django.contrib import admin
+from django.urls import path, include
+# include 추가. 내가 생성한 앱의 urls.py로 request를 전송하는 듯 하다.
+from crud import urls as crud_urls
+# crud 앱에서 urls 추가
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('crud/', include(crud_urls)),
+]
+~~~
+crud 앱에 urls 가 없기 떄문에 `urls.py`생성 후 다음 입력
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDU1OTc1MSw5MDQ2MjA5ODgsLTEyMD
-Y3NDk2NjYsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbNDE2MTY0MzQ0LDE5MDA1NTk3NTEsOTA0Nj
+IwOTg4LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
 -->
