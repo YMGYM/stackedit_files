@@ -54,8 +54,7 @@ admin.site.register(Post)
 아마 column을 수정한 것은 아니라서 그런 것 같다. 데이터베이스를 직접 수정한 것은 아니라서..
 
 
-## List
-
+##  List
 지금까지 작성된 데이터들을 list페이지에 보여주자.
  
  우선 view에서 데이터들을 넘겨 주어야 한다.
@@ -81,7 +80,10 @@ list.html은 다음과 같이 꾸며 주었다.
 
 {% endfor %}
 ~~~
+
+##  Read
+이제 으
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODc1Njk1NywxMDM2MDYyMTE5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMzYyNjk0MzA5LDEwMzYwNjIxMTksNzMwOT
+k4MTE2XX0=
 -->
