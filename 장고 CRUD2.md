@@ -134,7 +134,9 @@ read.html은 다음과 같다.
     <a href="{% url 'crud:read' item.id %}"> 제목 : {{ item.title }} </a>
 </h5>
 ~~~
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzMyOTY4MTcsMTAzNjA2MjExOSw3Mz
-A5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE4Nzk2NDgyNiwxMDM2MDYyMTE5LDczMD
+k5ODExNl19
 -->
