@@ -79,8 +79,6 @@ def list(request):
 ~~~python
 from django.db import models
 
-# Create your models here.
-
 class Post(models.Model):
     # Model을 상속받아 Posts클래스 생성
     # 단수 모델을 만드는 것이 차이점?
@@ -109,7 +107,7 @@ python manage.py migrate
 `new.html` 을 사용하겠다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTg2Mjc5MCwtMjg0MzgzOTk5LDE4ND
-c4NjUyMzUsMzk3NTYzNzA0LDE5MDA1NTk3NTEsOTA0NjIwOTg4
-LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTEzNTg1MDI2MDQsLTI4NDM4Mzk5OSwxOD
+Q3ODY1MjM1LDM5NzU2MzcwNCwxOTAwNTU5NzUxLDkwNDYyMDk4
+OCwtMTIwNjc0OTY2NiwtMzMyNDU1MzYzXX0=
 -->
