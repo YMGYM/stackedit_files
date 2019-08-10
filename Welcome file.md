@@ -27,9 +27,13 @@ tags:
 
 ## 앱 생성
 
-원하는 디렉토리로 가서 앱을 생성한다. ``python manage.py startapp [appname]`
+원하는 디렉토리로 가서 앱을 생성한다. ``python manage.py startapp [appname]``
+
+`setting.py`의 INSTALLEDE_APPS 에 생성한 앱 이름을 추가한다.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTAwMTM2NSwtMTIwNjc0OTY2NiwtMz
-MyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbMjExMjQwMzQ1LC0xMjA2NzQ5NjY2LC0zMz
+I0NTUzNjNdfQ==
 -->
