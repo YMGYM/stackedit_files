@@ -93,6 +93,12 @@ class Post(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 ~~~
+다음과 같이 입력 후에 터미널에 입력
+
+~~~
+python manage.py makemigrations
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTgyODgwOCw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbLTU2NTIzODgxOCw5MDQ2MjA5ODhdfQ==
 -->
