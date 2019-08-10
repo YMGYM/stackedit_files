@@ -91,7 +91,11 @@ def read(request, id):
     post = Post.objects.get(pk=id)
     return render(request, 'read.html', {'post':post})
 ~~~
+
+Post 의 오브젝트중에서 (primary_key = id)인 오브젝트를 찾는다.
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODc5ODQ4NSwxMDM2MDYyMTE5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbNDE2ODI3OTgzLDEwMzYwNjIxMTksNzMwOT
+k4MTE2XX0=
 -->
