@@ -110,8 +110,24 @@ python manage.py migrate
 
 url작업은 위와 같다.
 
+`new.html`은 입력을 위핸 form 을 작성했다.
+~~~html
+<h2>
+    새로 만들기
+</h2>
+
+<form action="[% url 'crud:create' %]" method="POST">
+    <label>제목</label><br>
+    <input type="text" name="title"><br>
+    <label>글 내용</label><br>
+    <textarea name="content"></textarea><br>
+    <input type="submit" value="제출">
+</form>
+~~~
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQ2MTU5NTYsMjE2OTQyMjA2LC0yOD
-QzODM5OTksMTg0Nzg2NTIzNSwzOTc1NjM3MDQsMTkwMDU1OTc1
-MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbLTE2NDkyOTY3MDcsLTIwMjQ2MTU5NTYsMj
+E2OTQyMjA2LC0yODQzODM5OTksMTg0Nzg2NTIzNSwzOTc1NjM3
+MDQsMTkwMDU1OTc1MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLT
+MzMjQ1NTM2M119
 -->
