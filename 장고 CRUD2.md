@@ -126,7 +126,15 @@ read.html은 다음과 같다.
 <a href="#">수정</a><a href="#">삭제</a>
 ~~~
 
+
+마지막으로 list.html의 href 속성만 바꿔 주면 된다. 
+
+~~~html
+<h5>
+    <a href="{% url 'crud:read' item.id %}"> 제목 : {{ item.title }} </a>
+</h5>
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNjYwMzE2LDEwMzYwNjIxMTksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5MjMyMTAyMjUsMTAzNjA2MjExOSw3Mz
+A5OTgxMTZdfQ==
 -->
