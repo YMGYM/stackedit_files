@@ -68,6 +68,10 @@ def list(request):
     return render(request, 'list.html')
 ~~~
 렌더링할 html파일을 만들기 위해 templates라는 폴더를 만들고 list.html을 생성했다.
+
+서버를 돌려서 `/crud/`에 접속해 보면 `list.html`이 렌더링된다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTA0Njg2NCw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbLTE1ODAxNTczMiw5MDQ2MjA5ODhdfQ==
 -->
