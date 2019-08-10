@@ -63,8 +63,14 @@ app_name을 사용해서 url의 이름을 지정했다. rails의 컨트롤러 �
 )
 `views.py`에 list액션이 없기 때문에 생성한다
 
+~~~python
+def list(request):
+    return render(request, 'list.html')
+~~~
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDgwNDk5MzAsMzk3NTYzNzA0LDE5MD
-A1NTk3NTEsOTA0NjIwOTg4LC0xMjA2NzQ5NjY2LC0zMzI0NTUz
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTA3MDM2MjUwNCwzOTc1NjM3MDQsMTkwMD
+U1OTc1MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2
+M119
 -->
