@@ -195,7 +195,8 @@ edit.html
 
 ## Delete
 delete도 방법은 같다.
+이미 `views.py`에서 액션을 만들었으므로 바로 진행가능하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3ODM0MTc1LDE0MzMyNjg1MDIsMTAzNj
+eyJoaXN0b3J5IjpbNDkwNTE5Nzc5LDE0MzMyNjg1MDIsMTAzNj
 A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
