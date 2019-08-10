@@ -198,9 +198,15 @@ delete도 방법은 같다.
 
 `views.py`
 ~~~python
-
+def delete(request, id):
+    post = Post.objects.get(pk=id)
+    post.delete()
+    
+    return redirect('crud:list')
 ~~~
+
+ㅕㄴ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQwMTgzOCwxNDMzMjY4NTAyLDEwMz
-YwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDI1NTk0MzM4LDE0MzMyNjg1MDIsMTAzNj
+A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
