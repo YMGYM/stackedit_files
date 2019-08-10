@@ -17,7 +17,16 @@ tags:
 > 그래도 일단 아는 것 부터 차곡차곡 완성하는게 맞을 것 같으니까.
 
 
+## admin 생성하기
 
+장고는 내부에 admin 툴을 기본 탑재하고 있었다. ` /admin/`으로 쉽게 접속할 수 있다는 것이 좋은듯.
+
+어드민 계정을 생성하기 위해 터미널에 다음을 입력한다.
+
+~~~
+
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4OTY4NjY0LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM1NTUwNTQ4MCw3MzA5OTgxMTZdfQ==
 -->
