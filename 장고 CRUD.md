@@ -141,14 +141,16 @@ def new(request):
     return render(request, 'new.html')
 
 def create(request):
-    if request.method == 'POST'
+    if request.method == 'POST':
         title = request.POST.get(title)
         content = request.POST.get(content)
         
         return redirect('crud:list')
 ~~~
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Nzg3Mzk2NiwtMTY0OTI5NjcwNywyMT
-Y5NDIyMDYsOTA0NjIwOTg4XX0=
+eyJoaXN0b3J5IjpbLTE4MTY3Njg3NTgsLTE2NDkyOTY3MDcsMj
+E2OTQyMjA2LDkwNDYyMDk4OF19
 -->
