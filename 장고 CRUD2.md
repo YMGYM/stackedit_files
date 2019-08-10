@@ -111,10 +111,22 @@ urls.py에서는 url을 통해 id값을 넘겨받아야 하므로, 다음과 같
 
 read.html은 다음과 같다.
 ~~~html
+<h1>
+    글 읽기
+</h1>
 
+<h3>
+    {{ post.title }}
+</h3>
+
+<p>
+    {{ post.content }}
+</p>
+
+<a href="#">수정</a><a href="#">삭제</a>
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1NzMwMTY3LDEwMzYwNjIxMTksNzMwOT
+eyJoaXN0b3J5IjpbNjAwNjYwMzE2LDEwMzYwNjIxMTksNzMwOT
 k4MTE2XX0=
 -->
