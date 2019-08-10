@@ -52,15 +52,15 @@ crud 앱에 urls 가 없기 떄문에 `urls.py`생성 후 다음 입력
 from django.urls import path
 from . import views
 
-appname="crud"
+app_name="crud"
 urlpatterns =[
     path('', views.list, name = "list"),
 ]
 ~~~
 
 같은 앱에서 views를 불러와 연결시킬 수 있다.
-app)
+app_name을 사용해
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzk5Mzg5MiwxOTAwNTU5NzUxLDkwND
-YyMDk4OCwtMTIwNjc0OTY2NiwtMzMyNDU1MzYzXX0=
+eyJoaXN0b3J5IjpbLTIwMTYwNzA4NzksMTkwMDU1OTc1MSw5MD
+Q2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2M119
 -->
