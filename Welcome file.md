@@ -98,9 +98,11 @@ class Post(models.Model):
 ~~~
 python manage.py makemigrations
 
-
+python manage.py migrate
+~~~
+ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTIzODgxOCwtMjg0MzgzOTk5LDE4ND
+eyJoaXN0b3J5IjpbLTk5NDkyMjIxMiwtMjg0MzgzOTk5LDE4ND
 c4NjUyMzUsMzk3NTYzNzA0LDE5MDA1NTk3NTEsOTA0NjIwOTg4
 LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
 -->
