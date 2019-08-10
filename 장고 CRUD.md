@@ -56,6 +56,8 @@ urlpatterns =[
     path('', views.list, name = "list"),
 ]
 ~~~
+
+같은 앱에서 views를 불러와 연결시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTQ2NDk5NSw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbMTI0NjcwMzIxMSw5MDQ2MjA5ODhdfQ==
 -->
