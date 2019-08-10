@@ -125,7 +125,30 @@ url작업은 위와 같다.
 </form>
 ~~~
 
+
+create url을 위한 작업이다.
+urls.py
+~~~python
+from django.shortcuts import render, redirect
+# redirect 을 사용하기 위해 넣어 줌
+
+
+def list(request):
+    return render(request, 'list.html')
+
+
+def new(request):
+    return render(request, 'new.html')
+
+def create(request):
+    if request.method == 'POST'
+        title = request.POST.get(title)
+        content = request.POST.get(content)
+        
+        return redirect('crud:list')
+~~~
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkyOTY3MDcsMjE2OTQyMjA2LDkwND
-YyMDk4OF19
+eyJoaXN0b3J5IjpbMTQ3Nzg3Mzk2NiwtMTY0OTI5NjcwNywyMT
+Y5NDIyMDYsOTA0NjIwOTg4XX0=
 -->
