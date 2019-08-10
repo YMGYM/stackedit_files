@@ -29,12 +29,13 @@ tags:
 
 원하는 디렉토리로 가서 앱을 생성한다. ``python manage.py startapp [appname]``
 
-`setting.py`의 INSTALLEDE_APPS 에 생성한 앱 이름을 추가한다.
+`setting.py`의 INSTALLED_APPS 에 생성한 앱 이름을 추가한다.
 
 
 ## URL 설정
+프로젝트 이름과 똑같은 폴더에 `urls.py`에 url을 설정한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgxMDI1NTMsLTEyMDY3NDk2NjYsLT
-MzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbOTA0NjIwOTg4LC0xMjA2NzQ5NjY2LC0zMz
+I0NTUzNjNdfQ==
 -->
