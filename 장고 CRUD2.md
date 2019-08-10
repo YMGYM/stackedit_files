@@ -94,8 +94,10 @@ def read(request, id):
 
 Post 의 오브젝트중에서 (primary_key = id)인 오브젝트를 찾는다.
 
+~~~python
+
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2ODI3OTgzLDEwMzYwNjIxMTksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbLTEwMTUxNDkzMzcsMTAzNjA2MjExOSw3Mz
+A5OTgxMTZdfQ==
 -->
