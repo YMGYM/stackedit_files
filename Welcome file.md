@@ -73,9 +73,11 @@ def list(request):
 
 
 ## 모델 설정
-모델을 
+모델을 만들어 보자. 모델의 기본적인 개념은 rails 의 그것과 많이 비슷한듯 하다.
+
+몯
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjExOTI2OSwzOTc1NjM3MDQsMTkwMD
-U1OTc1MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2
-M119
+eyJoaXN0b3J5IjpbODg1NjkxMDU1LDM5NzU2MzcwNCwxOTAwNT
+U5NzUxLDkwNDYyMDk4OCwtMTIwNjc0OTY2NiwtMzMyNDU1MzYz
+XX0=
 -->
