@@ -147,7 +147,7 @@ def edit(request, id):
     return render(request, 'edit.html', {'post':post})
 
 def update(request, id):
-    if request.method == POST:
+    if request.method == 'POST':
         post = Post.objects.get(pk=id)
         title = request.POST.get('title')
         content = request.POST.get('content')
@@ -187,6 +187,6 @@ edit.html
 </form>
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTAxMDk4MDMsMTQzMzI2ODUwMiwxMD
-M2MDYyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbNTUxMTMyMDUsMTQzMzI2ODUwMiwxMDM2MD
+YyMTE5LDczMDk5ODExNl19
 -->
