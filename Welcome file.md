@@ -57,7 +57,8 @@ urlpatterns =[
 ]
 ~~~
 
+같은 앱에서 views를 불러와 연결시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MTc0MjYwOSwxOTAwNTU5NzUxLDkwND
+eyJoaXN0b3J5IjpbMTI0NjcwMzIxMSwxOTAwNTU5NzUxLDkwND
 YyMDk4OCwtMTIwNjc0OTY2NiwtMzMyNDU1MzYzXX0=
 -->
