@@ -171,7 +171,7 @@ urlpatterns =[
 ]
 ~~~
 
-
+edit.html
 ~~~html
 <h2>
     파일 수정하기
@@ -187,6 +187,6 @@ urlpatterns =[
 </form>
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODQwOTE5OCwxNDMzMjY4NTAyLDEwMz
-YwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTgxMjczMDYzLDE0MzMyNjg1MDIsMTAzNj
+A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
