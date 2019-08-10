@@ -143,14 +143,19 @@ def new(request):
 
 def create(request):
     if request.method == 'POST':
-        title = request.POST.get(title)
-        content = request.POST.get(content)
+        title = request.POST.get('title')
+        content = request.POST.get('content')
+        
+        post = Post(title=title, content = content)
+        post.save()
         
         return redirect('crud:list')
+    
    ~~~
     
+    request로부터 요소들을 받아서 Post에 저장한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3ODM2MTQ0LDE0MzExNjM4MjQsMjY4OT
-I3NDAsLTE4MTY3Njg3NTgsLTE2NDkyOTY3MDcsMjE2OTQyMjA2
-LDkwNDYyMDk4OF19
+eyJoaXN0b3J5IjpbMTQyOTE2OTQ1MywxNDMxMTYzODI0LDI2OD
+kyNzQwLC0xODE2NzY4NzU4LC0xNjQ5Mjk2NzA3LDIxNjk0MjIw
+Niw5MDQ2MjA5ODhdfQ==
 -->
