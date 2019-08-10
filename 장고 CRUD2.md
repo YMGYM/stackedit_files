@@ -54,7 +54,10 @@ admin.site.register(Post)
 아마 column을 수정한 것은 아니라서 그런 것 같다. 데이터베이스를 직접 수정한 것은 아니라서..
 
 
-## 
+## List
+
+지금까지 작성된 데이터들을 list페이지에 보여주자.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDAyNzY3OSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzMzc0MDk1Nyw3MzA5OTgxMTZdfQ==
 -->
