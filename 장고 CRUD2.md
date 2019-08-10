@@ -205,8 +205,11 @@ def delete(request, id):
     return redirect('crud:list')
 ~~~
 
-ㅕㄴ
+`urls.py`
+~~~python
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NTk0MzM4LDE0MzMyNjg1MDIsMTAzNj
-A2MjExOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTE0OTA0MjgwNCwxNDMzMjY4NTAyLDEwMz
+YwNjIxMTksNzMwOTk4MTE2XX0=
 -->
