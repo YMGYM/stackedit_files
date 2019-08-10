@@ -117,6 +117,7 @@ url작업은 위와 같다.
 </h2>
 
 <form action="[% url 'crud:create' %]" method="POST">
+{% csrf_token %}
     <label>제목</label><br>
     <input type="text" name="title"><br>
     <label>글 내용</label><br>
@@ -153,7 +154,7 @@ def create(request):
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNTk4MTEyLDI2ODkyNzQwLC0xODE2Nz
-Y4NzU4LC0xNjQ5Mjk2NzA3LDIxNjk0MjIwNiw5MDQ2MjA5ODhd
-fQ==
+eyJoaXN0b3J5IjpbLTE0NDIxNDI0ODYsMjY4OTI3NDAsLTE4MT
+Y3Njg3NTgsLTE2NDkyOTY3MDcsMjE2OTQyMjA2LDkwNDYyMDk4
+OF19
 -->
