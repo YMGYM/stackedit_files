@@ -24,9 +24,16 @@ tags:
 어드민 계정을 생성하기 위해 터미널에 다음을 입력한다.
 
 ~~~
-
+$ python manage.py createsuperuser
+Username (leave blank to use 'root'): rootuser
+Email address: aa@aa.com
+Password:
+Password (again):
+Superuser created successfully.
 
 ~~~
+admin 사이트에 접속 할 경우 내가 생성한 모델은 나오지 않기 때문에 모델을 regi
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NTUwNTQ4MCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTgzOTIwNTE5Myw3MzA5OTgxMTZdfQ==
 -->
