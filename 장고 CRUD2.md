@@ -106,7 +106,11 @@ urlpatterns =[
     path('read/<int:id>/', views.read, name="read"),
 ]
 ~~~
+
+urls.py에서는 url을 통해 id값을 넘겨받아야 하므로, 다음과 같이 작성한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDczMTAsMTAzNjA2MjExOSw3MzA5OT
-gxMTZdfQ==
+eyJoaXN0b3J5IjpbNzkwNjU5NjgwLDEwMzYwNjIxMTksNzMwOT
+k4MTE2XX0=
 -->
