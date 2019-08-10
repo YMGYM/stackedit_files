@@ -145,14 +145,16 @@ def create(request):
         title = request.POST.get(title)
         content = request.POST.get(content)
         
-        return redirect('crud:list')
+        return redirect('crud:list', {'title': title, 'content': content})
+    
+    # request로부터 데이터 받아서 딕셔너리로 전달
 ~~~
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY3Njg3NTgsLTE2NDkyOTY3MDcsLT
-IwMjQ2MTU5NTYsMjE2OTQyMjA2LC0yODQzODM5OTksMTg0Nzg2
-NTIzNSwzOTc1NjM3MDQsMTkwMDU1OTc1MSw5MDQ2MjA5ODgsLT
-EyMDY3NDk2NjYsLTMzMjQ1NTM2M119
+eyJoaXN0b3J5IjpbMzEzNTk4MTEyLC0xODE2NzY4NzU4LC0xNj
+Q5Mjk2NzA3LC0yMDI0NjE1OTU2LDIxNjk0MjIwNiwtMjg0Mzgz
+OTk5LDE4NDc4NjUyMzUsMzk3NTYzNzA0LDE5MDA1NTk3NTEsOT
+A0NjIwOTg4LC0xMjA2NzQ5NjY2LC0zMzI0NTUzNjNdfQ==
 -->
