@@ -43,8 +43,12 @@ admin.site.register(Post)
 ~~~
 
 ### admin에서 특정 행 이름 보기
-사이트에서 확인해 본 결과 [모델명 object(n)]의 형태로 표시가 되는데, 이를 내가 원하는 형태로 바꾸고 싶은 경우, 모델에 다음과 같이 추가하면 된다
-].
+사이트에서 확인해 본 결과 [모델명 object(n)]의 형태로 표시가 되는데, 이를 내가 원하는 형태로 바꾸고 싶은 경우, 모델에 다음과 같이 추가하면 된다.
+
+~~~python
+    def __str__(self):
+        return self.title
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE1ODcyMzExLDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTE4NTg5ODAwMzksNzMwOTk4MTE2XX0=
 -->
