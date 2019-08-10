@@ -207,9 +207,11 @@ def delete(request, id):
 
 `urls.py`
 ~~~python
-
+...
+    path('delete/<int:id>/', views.delete, name="delete"),
+]
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTA0MjgwNCwxNDMzMjY4NTAyLDEwMz
-YwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNDg2Mzg4NzMwLDE0MzMyNjg1MDIsMTAzNj
+A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
