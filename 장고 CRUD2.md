@@ -211,7 +211,9 @@ def delete(request, id):
     path('delete/<int:id>/', views.delete, name="delete"),
 ]
 ~~~
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2Mzg4NzMwLDE0MzMyNjg1MDIsMTAzNj
-A2MjExOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTExNDM5Njc3ODYsMTQzMzI2ODUwMiwxMD
+M2MDYyMTE5LDczMDk5ODExNl19
 -->
