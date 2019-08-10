@@ -59,7 +59,8 @@ urlpatterns =[
 ~~~
 
 같은 앱에서 views를 불러와 연결시킬 수 있다.
-app_na
+app_name을 사용해서 url의 이름을 지정했다. rails의 컨트롤러 기능과 유사한 것 같다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0MTQ3MDU2LDkwNDYyMDk4OF19
+eyJoaXN0b3J5IjpbLTcyMDc2MDU4OSw5MDQ2MjA5ODhdfQ==
 -->
