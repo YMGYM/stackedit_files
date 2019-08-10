@@ -67,6 +67,7 @@ def list(request):
 
 Post 모델의 모든 데이터들을 posts에 담고, 딕셔너리를 통해 넘겨주었다.
 
+list.html은 다음과 같이 꾸며 주었다.
 ~~~html
 <h2>
     메인페이지입니다.
@@ -81,6 +82,6 @@ Post 모델의 모든 데이터들을 posts에 담고, 딕셔너리를 통해 �
 {% endfor %}
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjE2NDkxLDEwMzYwNjIxMTksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbMTc5ODc1Njk1NywxMDM2MDYyMTE5LDczMD
+k5ODExNl19
 -->
