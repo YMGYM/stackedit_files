@@ -59,7 +59,12 @@ admin.site.register(Post)
 지금까지 작성된 데이터들을 list페이지에 보여주자.
  
  우선 view에서 데이터들을 넘겨 주어야 한다.
- ~~
+ ~~~python
+ def new(request):
+    posts = Post.objects.all()
+    return render(request, 'new.html', {'posts':posts})
+
+~~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc0MTQwNCw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTkwNjY0OTQxOCw3MzA5OTgxMTZdfQ==
 -->
