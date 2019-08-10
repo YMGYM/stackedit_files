@@ -82,8 +82,9 @@ list.html은 다음과 같이 꾸며 주었다.
 ~~~
 
 ##  Read
-이제 으
+이제 제목을 클릭하면, 그 데이터만 따로 보여주는 Read 부분을 해 보자.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYyNjk0MzA5LDEwMzYwNjIxMTksNzMwOT
-k4MTE2XX0=
+eyJoaXN0b3J5IjpbODA2NDAxNzcsMTAzNjA2MjExOSw3MzA5OT
+gxMTZdfQ==
 -->
