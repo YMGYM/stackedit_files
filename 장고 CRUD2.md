@@ -211,9 +211,13 @@ def delete(request, id):
     path('delete/<int:id>/', views.delete, name="delete"),
 ]
 ~~~
+`read.html`
+~~~html
+<a href="{% url 'crud:edit' post.id %}">수정</a>  <a href="{% url 'crud:delete' post.id %}">삭제</a>
+~~~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDM5Njc3ODYsMTQzMzI2ODUwMiwxMD
-M2MDYyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTM3Nzg1OTg0MSwxNDMzMjY4NTAyLDEwMz
+YwNjIxMTksNzMwOTk4MTE2XX0=
 -->
