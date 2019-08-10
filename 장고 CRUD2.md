@@ -140,8 +140,27 @@ read.html은 다음과 같다.
 
 html 과 url작업은 read와 같다.
 
+urls.py
+~~~python
+def edit(request, id):
+    post = Post.object.get(pk=id)
+    return render(request, 'edit.html', {'post':post})
+
+def update(request, id):
+    if request.method == POST:
+        post = Post.object.get(pk=id)
+        title = request.POST.get('title')
+        content = request.POST.get('content')
+
+        post.title = title
+        post.content = content
+        post.save()
+
+        return redirect('crud:read', post.id)
+~~~
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzI2ODUwMiwxMDM2MDYyMTE5LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbMjEyNjk5NzI4OCwxNDMzMjY4NTAyLDEwMz
+YwNjIxMTksNzMwOTk4MTE2XX0=
 -->
