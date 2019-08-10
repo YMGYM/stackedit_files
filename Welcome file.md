@@ -32,8 +32,9 @@ tags:
 `setting.py`의 INSTALLEDE_APPS 에 생성한 앱 이름을 추가한다.
 
 
+## URL 설정
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjQwMzQ1LC0xMjA2NzQ5NjY2LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjgxMDI1NTMsLTEyMDY3NDk2NjYsLT
+MzMjQ1NTM2M119
 -->
