@@ -60,15 +60,15 @@ admin.site.register(Post)
  
  우선 view에서 데이터들을 넘겨 주어야 한다.
  ~~~ python
- def new(request):
+def list(request):
     posts = Post.objects.all()
-    return render(request, 'new.html', {'posts':posts})
-
+    return render(request, 'list.html', {'posts':posts})
 ~~~
 
 Post 모델의 모든 데이터들을 posts에 담고, 딕셔너리를 통해 넘겨주었다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTUxNTY1NDM4OSwxMDM2MDYyMTE5LDczMD
+k5ODExNl19
 -->
