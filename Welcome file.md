@@ -76,8 +76,9 @@ def list(request):
 모델을 만들어 보자. 모델의 기본적인 개념은 rails 의 그것과 많이 비슷한듯 하다.
 
 모델에 관련된 설정은 `models.py`가 해준다.몯
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Nzg2NTIzNSwxMTg1ODA5ODQyLDM5Nz
+eyJoaXN0b3J5IjpbLTI4NDM4Mzk5OSwxODQ3ODY1MjM1LDM5Nz
 U2MzcwNCwxOTAwNTU5NzUxLDkwNDYyMDk4OCwtMTIwNjc0OTY2
 NiwtMzMyNDU1MzYzXX0=
 -->
