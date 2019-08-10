@@ -186,7 +186,15 @@ edit.html
     <input type="submit" value="제출">
 </form>
 ~~~
+
+`read.html`
+~~~html
+<a href="{% url 'crud:edit' post.id %}">수정</a>  <a href="#">삭제</a>
+~~~
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMTMyMDUsMTQzMzI2ODUwMiwxMDM2MD
-YyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTIwODQ5NzI2ODYsMTQzMzI2ODUwMiwxMD
+M2MDYyMTE5LDczMDk5ODExNl19
 -->
