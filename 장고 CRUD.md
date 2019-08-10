@@ -79,6 +79,8 @@ def list(request):
 ~~~python
 from django.db import models
 
+# Create your models here.
+
 class Post(models.Model):
     # Model을 상속받아 Posts클래스 생성
     # 단수 모델을 만드는 것이 차이점?
@@ -108,6 +110,22 @@ python manage.py migrate
 
 url작업은 위와 같다.
 
+`new.html`은 입력을 위핸 form 을 작성했다.
+~~~html
+<h2>
+    새로 만들기
+</h2>
+
+<form action="[% url 'crud:create' %]" method="POST">
+    <label>제목</label><br>
+    <input type="text" name="title"><br>
+    <label>글 내용</label><br>
+    <textarea name="content"></textarea><br>
+    <input type="submit" value="제출">
+</form>
+~~~
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2OTQyMjA2LDkwNDYyMDk4OF19
+eyJoaXN0b3J5IjpbLTE2NDkyOTY3MDcsMjE2OTQyMjA2LDkwND
+YyMDk4OF19
 -->
