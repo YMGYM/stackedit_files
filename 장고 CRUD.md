@@ -150,7 +150,10 @@ def create(request):
     # request로부터 데이터 받아서 딕셔너리로 전달
 ~~~
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY4OTI3NDAsLTE4MTY3Njg3NTgsLTE2ND
-kyOTY3MDcsMjE2OTQyMjA2LDkwNDYyMDk4OF19
+eyJoaXN0b3J5IjpbMzEzNTk4MTEyLDI2ODkyNzQwLC0xODE2Nz
+Y4NzU4LC0xNjQ5Mjk2NzA3LDIxNjk0MjIwNiw5MDQ2MjA5ODhd
+fQ==
 -->
