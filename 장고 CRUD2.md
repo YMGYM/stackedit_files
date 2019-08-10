@@ -161,9 +161,19 @@ def update(request, id):
 
 `urls.py`
 ~~~python
-
+urlpatterns =[
+    path('', views.list, name = "list"),
+    path('new/', views.new, name="new"),
+    path('create/', views.create, name="create"),
+    path('read/<int:id>/', views.read, name="read"),
+    path('edit/<int:id>/', views.edit, name="edit"),
+    path('update/<int:id>/', views.update, name="update"),
+]
 ~~~
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM5ODQyMzEsMTQzMzI2ODUwMiwxMD
+eyJoaXN0b3J5IjpbLTE0ODQ5Njc2NTMsMTQzMzI2ODUwMiwxMD
 M2MDYyMTE5LDczMDk5ODExNl19
 -->
