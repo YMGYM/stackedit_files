@@ -75,8 +75,24 @@ def list(request):
 ## 모델 설정
 모델을 만들어 보자. 모델의 기본적인 개념은 rails 의 그것과 많이 비슷한듯 하다.
 
-모델에 관련된 설정은 `models.py`가 해준다.몯
+모델에 관련된 설정은 `models.py`가 해준다.
+~~~python
+from django.db import models
 
+# Create your models here.
+
+class Post(models.Model):
+    # Model을 상속받아 Posts클래스 생성
+    # 단수 모델을 만드는 것이 차이점?
+    
+    # --- 모델에 들어갈 column -----
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    
+    # 내용에 관계 없이 필수로 들어가야하는 column
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDM4Mzk5OSw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbLTIyNTgyODgwOCw5MDQ2MjA5ODhdfQ==
 -->
