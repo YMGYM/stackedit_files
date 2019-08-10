@@ -135,8 +135,13 @@ read.html은 다음과 같다.
 </h5>
 ~~~
 
-###
+## Update
+데이터를 수정해보자.
+
+html 과 url작업은 read와 같다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzk2NDgyNiwxMDM2MDYyMTE5LDczMD
+eyJoaXN0b3J5IjpbMTQzMzI2ODUwMiwxMDM2MDYyMTE5LDczMD
 k5ODExNl19
 -->
