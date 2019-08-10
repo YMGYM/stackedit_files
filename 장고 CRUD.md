@@ -72,6 +72,8 @@ def list(request):
 서버를 돌려서 `/crud/`에 접속해 보면 `list.html`이 렌더링된다.
 
 
+## 모델 설정
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODAxNTczMiw5MDQ2MjA5ODhdfQ==
+eyJoaXN0b3J5IjpbMTczNjg1NDcyNyw5MDQ2MjA5ODhdfQ==
 -->
