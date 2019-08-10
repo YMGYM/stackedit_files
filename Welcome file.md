@@ -67,10 +67,9 @@ app_name을 사용해서 url의 이름을 지정했다. rails의 컨트롤러 �
 def list(request):
     return render(request, 'list.html')
 ~~~
-
-
+렌더링할 html파일을 만들기 위해 templates라는 폴더를 만들고 list.html을 생성했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDM2MjUwNCwzOTc1NjM3MDQsMTkwMD
+eyJoaXN0b3J5IjpbLTc3OTA0Njg2NCwzOTc1NjM3MDQsMTkwMD
 U1OTc1MSw5MDQ2MjA5ODgsLTEyMDY3NDk2NjYsLTMzMjQ1NTM2
 M119
 -->
