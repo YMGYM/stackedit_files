@@ -177,7 +177,7 @@ edit.html
     파일 수정하기
 </h2>
 
-<form action="{% url 'crud:update', post.id %}" method="POST">
+<form action="{% url 'crud:update' post.id %}" method="POST">
     {% csrf_token %}
     <label>제목</label><br>
     <input type="text" name="title" value="{{ post.titme }}"><br>
@@ -187,6 +187,6 @@ edit.html
 </form>
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjczMDYzLDE0MzMyNjg1MDIsMTAzNj
+eyJoaXN0b3J5IjpbNDg1NjMxNTMzLDE0MzMyNjg1MDIsMTAzNj
 A2MjExOSw3MzA5OTgxMTZdfQ==
 -->
