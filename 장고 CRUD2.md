@@ -1,7 +1,23 @@
 
+---
+layout: post
+title: "장고 CRUD(2)"
+categories:
+  - 장고공부
+tags:
+  - Django
+---
 
 
-> Written with [StackEdit](https://stackedit.io/).
+
+# 장고 CRUD-2
+> 
+> 레일즈의 scaffold 형태로 제작을 해 보는게 프로젝트의 목표지만, 제대로 하고 있는지 모르겠다.
+> 레일즈는 rails way가 있지만 장고는 django way가 있을 수도 있는 것 아닐까..?
+> 그래도 일단 아는 것 부터 차곡차곡 완성하는게 맞을 것 같으니까.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbNjk4OTY4NjY0LDczMDk5ODExNl19
 -->
