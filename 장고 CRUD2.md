@@ -217,10 +217,18 @@ def delete(request, id):
 ~~~
 
 ### POST method 를 통해 넘기기
-get 방식을 통해 넘기면 csrf 공격에 취약하다. 
-이를 위
+GET 방식을 통해 넘기면 csrf 공격에 취약하다. 
+이를 위해 최소 POST방식을 통해 넘겨 줄 필요가 있을 것이다.
+
+POST방법을 통해 전송하기 위해, `form`태그를 추가하자.
+
+`read.html`
+~~~html
+<a href="{% url 'crud:edit' post.id %}">수정</a>  <a href="{% url 'crud:delete' post.id %}">삭제</a>
+~~~
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgwMjQ0OCwxMzc3ODU5ODQxLDE0Mz
-MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE1NzQ0MDk3LDEzNzc4NTk4NDEsMTQzMz
+I2ODUwMiwxMDM2MDYyMTE5LDczMDk5ODExNl19
 -->
