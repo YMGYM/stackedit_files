@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "장고 CRUD(2)"
+title: "dialogflow 기초"
 categories:
-  - 장고공부
+  - 아픈지렁이
 tags:
   - Django
 ---
@@ -241,5 +241,5 @@ def delete(request, id):
   ~~~
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTIwOTA3Ml19
+eyJoaXN0b3J5IjpbMjgwOTU4NzUzXX0=
 -->
