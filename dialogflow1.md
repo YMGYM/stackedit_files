@@ -5,6 +5,7 @@ categories:
   - 아픈지렁이
 tags:
   - Django
+  - 챗봇
 ---
 
 
@@ -241,5 +242,5 @@ def delete(request, id):
   ~~~
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwOTU4NzUzXX0=
+eyJoaXN0b3J5IjpbLTIzOTY0NjUxNl19
 -->
