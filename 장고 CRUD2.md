@@ -233,7 +233,7 @@ POST방법을 통해 전송하기 위해, `form`태그를 추가하자.
 `views.py`
 ~~~python
 def delete(request, id):
-    if request.method == 'POST'
+    if request.method == 'POST':
         post = Post.objects.get(pk=id)
         post.delete()
 
@@ -241,6 +241,6 @@ def delete(request, id):
   ~~~
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjg4ODk5NCwxMzc3ODU5ODQxLDE0Mz
-MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTE3Njg3MTkwMjQsMTM3Nzg1OTg0MSwxND
+MzMjY4NTAyLDEwMzYwNjIxMTksNzMwOTk4MTE2XX0=
 -->
