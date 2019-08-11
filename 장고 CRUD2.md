@@ -230,8 +230,17 @@ POST방법을 통해 전송하기 위해, `form`태그를 추가하자.
 </form>
 ~~~
 
+`views.py`
+~~~python
+def delete(request, id):
+    if request.method == 'POST'
+        post = Post.objects.get(pk=id)
+        post.delete()
 
+        return redirect('crud:list')
+  ~~~
+        
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODU1NzI1OSwxMzc3ODU5ODQxLDE0Mz
+eyJoaXN0b3J5IjpbLTIyNjg4ODk5NCwxMzc3ODU5ODQxLDE0Mz
 MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
 -->
