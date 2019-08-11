@@ -224,11 +224,14 @@ POST방법을 통해 전송하기 위해, `form`태그를 추가하자.
 
 `read.html`
 ~~~html
-<a href="{% url 'crud:edit' post.id %}">수정</a>  <a href="{% url 'crud:delete' post.id %}">삭제</a>
+<a href="{% url 'crud:edit' post.id %}">수정</a>  
+<form action="{% url 'crud:delete' post.id %}" method="POST">
+    <input type="submit" value="삭제">
+</form>
 ~~~
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ0MDk3LDEzNzc4NTk4NDEsMTQzMz
-I2ODUwMiwxMDM2MDYyMTE5LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbLTg3ODU1NzI1OSwxMzc3ODU5ODQxLDE0Mz
+MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
 -->
