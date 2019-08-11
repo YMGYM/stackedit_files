@@ -226,6 +226,7 @@ POST방법을 통해 전송하기 위해, `form`태그를 추가하자.
 ~~~html
 <a href="{% url 'crud:edit' post.id %}">수정</a>  
 <form action="{% url 'crud:delete' post.id %}" method="POST">
+	{% csrf_token %}
     <input type="submit" value="삭제">
 </form>
 ~~~
@@ -241,6 +242,6 @@ def delete(request, id):
   ~~~
         
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg3MTkwMjQsMTM3Nzg1OTg0MSwxND
-MzMjY4NTAyLDEwMzYwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMTQ3OTQ4NzkwMiwxMzc3ODU5ODQxLDE0Mz
+MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
 -->
