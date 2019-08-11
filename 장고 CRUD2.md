@@ -66,7 +66,7 @@ def list(request):
 
 Post 모델의 모든 데이터들을 posts에 담고, 딕셔너리를 통해 넘겨주었다.
 
-list.html은 다음과 같이 꾸며 주었다.
+`list.html`은 다음과 같이 꾸며 주었다.
 ~~~html
 <h2>
     메인페이지입니다.
@@ -107,7 +107,7 @@ urlpatterns =[
 ]
 ~~~
 
-urls.py에서는 url을 통해 id값을 넘겨받아야 하므로, 다음과 같이 작성한다.
+`urls.py`에서는 `url`을 통해 id값을 넘겨받아야 하므로, 다음과 같이 작성한다.
 
 read.html은 다음과 같다.
 ~~~html
@@ -138,9 +138,9 @@ read.html은 다음과 같다.
 ## Update
 데이터를 수정해보자.
 
-html 과 url작업은 read와 같다.
+`html` 과 `url`작업은 read와 같다.
 
-~views.py~
+`views.py`
 ~~~python
 def edit(request, id):
     post = Post.objects.get(pk=id)
@@ -171,7 +171,7 @@ urlpatterns =[
 ]
 ~~~
 
-edit.html
+`edit.htm`l
 ~~~html
 <h2>
     파일 수정하기
@@ -216,8 +216,11 @@ def delete(request, id):
 <a href="{% url 'crud:edit' post.id %}">수정</a>  <a href="{% url 'crud:delete' post.id %}">삭제</a>
 ~~~
 
+### POST method 를 통해 넘기기
+get 방식을 통해 넘기면 csrf 공격에 취약하다. 
+이를 위
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Nzg1OTg0MSwxNDMzMjY4NTAyLDEwMz
-YwNjIxMTksNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbLTE5ODgwMjQ0OCwxMzc3ODU5ODQxLDE0Mz
+MyNjg1MDIsMTAzNjA2MjExOSw3MzA5OTgxMTZdfQ==
 -->
