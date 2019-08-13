@@ -119,14 +119,15 @@ def action(request):
     # if request.method == 'post':
         fulfillmentText = {'fulfillmentText': '테스트'}
         return JsonResponse(fulfillmentText, safe=False)
-
 ~~~
+이와 같이 텍스트를 보내면, response의 fulfillmentText부분만 수정되어 날아간다.
 
 
 
 자세한 사항
 [https://developers.google.com/actions/build/json/dialogflow-webhook-json]
+[https://actions-on-google.github.io/actions-on-google-nodejs/2.11.0/modules/_service_dialogflow_dialogflow_.html]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDU2NzMzMCwtODk5MDAyMTQ3LC0yNz
-U2NDM1NzQsLTE5MzQ2ODcwMDddfQ==
+eyJoaXN0b3J5IjpbLTE1Nzc0MTYyODYsLTg5OTAwMjE0NywtMj
+c1NjQzNTc0LC0xOTM0Njg3MDA3XX0=
 -->
