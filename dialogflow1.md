@@ -55,7 +55,11 @@ urlpatterns = [
 1. 우선 dialogflow 서버에서 POST방식으로 리퀘스트를 보냈을 때,  csrf 에러를 일으키지 않아야 하고,
 2. JSON 형태의 데이터를 반환해 주어야 한다.
 
+### csrf 오류 방지하기
+
+ROR에서는 csrf 관련 체크 명령을 삭제하는 방법으로 오류를 '회피' 할 수 있었다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4ODEyMTg5LC0xOTM0Njg3MDA3XX0=
+eyJoaXN0b3J5IjpbLTE0MjY2NTExOTEsLTE5MzQ2ODcwMDddfQ
+==
 -->
