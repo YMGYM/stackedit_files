@@ -103,10 +103,10 @@ JSON 형태를 딕셔너리 형태로 오해해 오류를 뱉어내는걸 방지
 
 fulfullment 탭에 들어가, `webhook` 을 켜고, 사이트 주소를 입력한다.
 
-####
-이 때 사이트 주소는 `[내 url]/action/` 식으로 uri를 꼭 적어 주어야 한다.
+#### 이부부분에서 한참 안됐는데..
+사이트 주소는 `[내 url]/action/` 식으로 uri를 꼭 적어 주어야 한다.
+카카오톡 api 는 `/keyboard`를 알아서 붙여서 request를 했었었는데..
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjMwMjY4NTMsLTE5MzQ2ODcwMDddfQ
-==
+eyJoaXN0b3J5IjpbMTA2NTU2MzMwNiwtMTkzNDY4NzAwN119
 -->
