@@ -97,7 +97,9 @@ JSON 형태를 딕셔너리 형태로 오해해 오류를 뱉어내는걸 방지
 
 ### intent 만들기
 
-우선, 스위플의 재고를 물어보는 `intent`를 만들고, 
+우선, 스위플의 재고를 물어보는 `intent`를 만들고, `enable webhook call for this intent`를 활성화 시켰다.(맨 아래)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMjc0ODgwMCwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbMTI1ODQwMjMzOSwtMTkzNDY4NzAwN119
 -->
