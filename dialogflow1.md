@@ -60,8 +60,20 @@ urlpatterns = [
 ROR에서는 csrf 관련 체크 명령을 삭제하는 방법으로 오류를 '회피' 할 수 있었다.
 이왕이면 이런 방법이 아니라 token을 발급하는 방법으로 가고 싶었지만,
 
-dial
+dialogflow에서 request를 보낼 때 `"responseId"`라는 이름으로 임의의 보안 값을 발생시키는 것으로 보인다.
+따라서 django 에서도 비슷한 방법을 사용해 도 될 것 같다.
+
+csrf 체크를 회피하는 방법은 다음과 같았다.
+
+`views.py`
+~~~python
+...
+from django.views.decorators.csrf import csrf_exempt
+...
+
+@csrf_exempt
+de
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE5ODI4NTIsLTE5MzQ2ODcwMDddfQ
-==
+eyJoaXN0b3J5IjpbMjEwNTEzNzU5MywtMTkzNDY4NzAwN119
 -->
