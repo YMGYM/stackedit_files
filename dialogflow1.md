@@ -99,7 +99,14 @@ JSON 형태를 딕셔너리 형태로 오해해 오류를 뱉어내는걸 방지
 
 우선, 스위플의 재고를 물어보는 `intent`를 만들고, `enable webhook call for this intent`를 활성화 시켰다.(맨 아래)
 
+### fulfillment 설정
+
+fulfullment 탭에 들어가, `webhook` 을 켜고, 사이트 주소를 입력한다.
+
+####
+이 때 사이트 주소는 `[내 url]/action/` 식으로 uri를 꼭 적어 주어야 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODQwMjMzOSwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbLTE4MjMwMjY4NTMsLTE5MzQ2ODcwMDddfQ
+==
 -->
