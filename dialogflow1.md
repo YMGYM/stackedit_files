@@ -90,11 +90,11 @@ import json
  return JsonResponse([JSON_name], safe=False)
 ~~~
 `safe=False` 속성은, `TypeError`를 방지하기 위해 쓰인다.
-JSON 형태를 딕셔너리 형태인줄 알고 오류를 뱉어내는걸 방지하기 위해 쓰인다고 한다.
+JSON 형태를 딕셔너리 형태로 오해해 오류를 뱉어내는걸 방지하기 위해 쓰인다고 한다.
 
 
 ## fulfillment 설정
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg5MjQ0OSwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbLTE4MzYxNTgzMywtMTkzNDY4NzAwN119
 -->
