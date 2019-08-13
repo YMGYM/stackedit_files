@@ -107,6 +107,20 @@ fulfullment 탭에 들어가, `webhook` 을 켜고, 사이트 주소를 입력�
 사이트 주소는 `[내 url]/action/` 식으로 uri를 꼭 적어 주어야 한다.
 카카오톡 api 는 `/keyboard`를 알아서 붙여서 request를 했었었는데..
 
+
+## `views.py`설정
+
+마지막으로, request를 했을 때, 응답을 보내 보자.
+
+`views.py`를 다음과 같이 수정하면 된다
+~~~python
+...
+def action(request):
+    # if request.method == 'post':
+        fulfillmentText = {'fulfillmentText': 'This is Django test response from webhook.'}
+        return JsonResponse(fulfillmentText, safe=False)
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTU2MzMwNiwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbLTI3NTY0MzU3NCwtMTkzNDY4NzAwN119
 -->
