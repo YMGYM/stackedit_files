@@ -58,8 +58,10 @@ urlpatterns = [
 ### csrf 오류 방지하기
 
 ROR에서는 csrf 관련 체크 명령을 삭제하는 방법으로 오류를 '회피' 할 수 있었다.
+이왕이면 이런 방법이 아니라 token을 발급하는 방법으로 가고 싶었지만,
 
+dial
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjY2NTExOTEsLTE5MzQ2ODcwMDddfQ
+eyJoaXN0b3J5IjpbLTE5MjE5ODI4NTIsLTE5MzQ2ODcwMDddfQ
 ==
 -->
