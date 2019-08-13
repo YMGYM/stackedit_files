@@ -87,8 +87,8 @@ from django.http import JsonResponse
 import json
 
 ...
-
+ return JsonResponse(fulfillmentText, safe=False)    
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTM1ODU2MCwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbMjE5Nzk1NTIyLC0xOTM0Njg3MDA3XX0=
 -->
