@@ -14,6 +14,9 @@ tags:
 > 구글 어시스턴트와 페이스북 메신저 등 다양한 연동 기능을 제공하고 있다.
 > Django를 통해 기본 서버를 구축하고, fulfillment 기능을 통해 서버와 연동하는 방법을 진행하려 한다.
 
+> 서비스를 제작할 때 다음 게시글을 많이 참고했다.
+> https://www.pragnakalp.com/dialogflow-tutorial-create-fulfillment-webhook-using-python-django/
+
 
 ## Django App 만들기
 
@@ -33,6 +36,18 @@ urlpatterns = [
     path('action/', include(sweeple_url)),
 ]
 ~~~
+
+`sweeple/urls.py`
+~~~python
+from django.urls import path
+from . import views
+
+urlpatterns = [
+    path('', views.action, name="acton"),
+]
+~~~
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTQ0MTUzNSwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbNTcxMzEyODIyLC0xOTM0Njg3MDA3XX0=
 -->
