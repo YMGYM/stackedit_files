@@ -52,7 +52,10 @@ urlpatterns = [
 
 `view`의 경우는 이야기가 조금 복잡해졌다.
 
-1. 우선 csrf
+1. 우선 dialogflow 서버에서 POST방식으로 리퀘스트를 보냈을 때,  csrf 에러를 일으키지 않아야 하고,
+2. JSON 형태의 데이터를 반환해 주어야 한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MTYwNjgxNiwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbMzg4ODEyMTg5LC0xOTM0Njg3MDA3XX0=
 -->
