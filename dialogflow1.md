@@ -117,10 +117,11 @@ fulfullment 탭에 들어가, `webhook` 을 켜고, 사이트 주소를 입력�
 ...
 def action(request):
     # if request.method == 'post':
-        fulfillmentText = {'fulfillmentText': 'This is Django test response from webhook.'}
+        fulfillmentText = {'fulfillmentText': '테스트'}
         return JsonResponse(fulfillmentText, safe=False)
 
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTY0MzU3NCwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbLTg5OTAwMjE0NywtMjc1NjQzNTc0LC0xOT
+M0Njg3MDA3XX0=
 -->
