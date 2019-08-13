@@ -75,6 +75,8 @@ from django.views.decorators.csrf import csrf_exempt
 def action(request):
 ...
 ~~~
+
+### Json ㅊ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzM3ODYxNSwtMTkzNDY4NzAwN119
+eyJoaXN0b3J5IjpbMjg4MzIxMTU2LC0xOTM0Njg3MDA3XX0=
 -->
