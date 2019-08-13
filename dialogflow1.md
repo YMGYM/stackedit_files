@@ -8,11 +8,19 @@ tags:
   - 챗봇
 ---
 
-# Dialogflow 기초
+# Dialogflow와 Django 연결하기
 
 > Dialogflow는 구글에서 제공하고 있는 자연어 기반 챗봇 서비스이다.
 > 구글 어시스턴트와 페이스북 메신저 등 다양한 연동 기능을 제공하고 있다.
-> Django를 통해 기본 서버를 구축하고, fulfillment 기능을 통해 서버와 연동하는 방법으
+> Django를 통해 기본 서버를 구축하고, fulfillment 기능을 통해 서버와 연동하는 방법을 진행하려 한다.
+
+
+## Django App 만들기
+
+시작은 언제나 하던 대로, `startapp`을 이용해 앱을 만들어 준 뒤에, `setting.py`에 추가해주자.
+
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTQ5Mjg4LC0xOTM0Njg3MDA3XX0=
+eyJoaXN0b3J5IjpbLTEzNDIzMzk2MjUsLTE5MzQ2ODcwMDddfQ
+==
 -->
