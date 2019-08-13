@@ -18,9 +18,21 @@ tags:
 ## Django App 만들기
 
 시작은 언제나 하던 대로, `startapp`을 이용해 앱을 만들어 준 뒤에, `setting.py`에 추가해주자.
+나는 연세우유의 제품 중 하나인 '스위플' 을 소재로 잡았다.
 
-`
+`urls` 에는 `action/` 이란 주소로 왔을때 app으로 넘겨주도록 설정했다.
+`[프로젝트명/]
+~~~python
+from django.contrib import admin
+from django.urls import path, include
+from sweeple import urls as sweeple_url
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('action/', include(sweeple_url)),
+]
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDIzMzk2MjUsLTE5MzQ2ODcwMDddfQ
-==
+eyJoaXN0b3J5IjpbODkyNTI2MjU4LC0xOTM0Njg3MDA3XX0=
 -->
