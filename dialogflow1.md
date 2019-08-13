@@ -76,7 +76,19 @@ def action(request):
 ...
 ~~~
 
-### Json ㅊ
+### JSON 처리하기
+
+레일즈와는 달리, 장고는 JSON을 바로 처리할 수 없다. 관련 모듈을 `import`해줘야 한다.
+방법은 매우 쉽고 간단했다.
+`views.py`
+~~~python
+...
+from django.http import JsonResponse
+import json
+
+...
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4MzIxMTU2LC0xOTM0Njg3MDA3XX0=
+eyJoaXN0b3J5IjpbMTU1NTM1ODU2MCwtMTkzNDY4NzAwN119
 -->
