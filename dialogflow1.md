@@ -93,7 +93,8 @@ import json
 JSON 형태를 딕셔너리 형태인줄 알고 오류를 뱉어내는걸 방지하기 위해 쓰인다고 한다.
 
 
+## fulfillment 설정
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzcxNTE5MDIsLTE5MzQ2ODcwMDddfQ
-==
+eyJoaXN0b3J5IjpbLTE5ODg5MjQ0OSwtMTkzNDY4NzAwN119
 -->
