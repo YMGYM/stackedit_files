@@ -121,7 +121,12 @@ def action(request):
         return JsonResponse(fulfillmentText, safe=False)
 
 ~~~
+
+
+
+자세한 사항
+[https://developers.google.com/actions/build/json/dialogflow-webhook-json](https://developers.google.com/actions/build/json/dialogflow-webhook-json)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTAwMjE0NywtMjc1NjQzNTc0LC0xOT
-M0Njg3MDA3XX0=
+eyJoaXN0b3J5IjpbMjEyMDA1ODUxMSwtODk5MDAyMTQ3LC0yNz
+U2NDM1NzQsLTE5MzQ2ODcwMDddfQ==
 -->
