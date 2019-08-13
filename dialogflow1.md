@@ -48,6 +48,11 @@ urlpatterns = [
 ~~~
 
 
+## `views.py` 꾸미기
+
+`view`의 경우는 이야기가 조금 복잡해졌다.
+
+1. 우선 csrf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMzEyODIyLC0xOTM0Njg3MDA3XX0=
+eyJoaXN0b3J5IjpbMTc4MTYwNjgxNiwtMTkzNDY4NzAwN119
 -->
