@@ -125,8 +125,8 @@ def action(request):
 
 
 자세한 사항
-[https://developers.google.com/actions/build/json/dialogflow-webhook-json](https://developers.google.com/actions/build/json/dialogflow-webhook-json)
+[https://developers.google.com/actions/build/json/dialogflow-webhook-json]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDA1ODUxMSwtODk5MDAyMTQ3LC0yNz
+eyJoaXN0b3J5IjpbMTA5MDU2NzMzMCwtODk5MDAyMTQ3LC0yNz
 U2NDM1NzQsLTE5MzQ2ODcwMDddfQ==
 -->
