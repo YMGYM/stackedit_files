@@ -87,9 +87,9 @@ from django.http import JsonResponse
 import json
 
 ...
- return JsonResponse([JSON_name], safe=False)    
+ return JsonResponse([JSON_name], safe=False)
 ~~~
+`safe=False` 속성은, `TypeError`를 방지하기 위해 쓰인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjU2MTM3MzcsLTE5MzQ2ODcwMDddfQ
-==
+eyJoaXN0b3J5IjpbMTMyOTE1MDAyMSwtMTkzNDY4NzAwN119
 -->
