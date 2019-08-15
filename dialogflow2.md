@@ -137,10 +137,34 @@ DF의 파라미터는 다음과 같은 속성이 있다.
 
 `views.py`
 ~~~
+...
 
+        elif intent == "스위플주문":
+            params = req.get('queryResult').get('parameters')
+            return create_delivery(request, params)
+
+...
+
+def create_delivery(request, params):
+~~~
+함수의 인자를 통해 딕셔너리를 바로 전달 할 수 있었다. 해보니까 되네..
+
+그리고 이제 view에서 배웠던 Create와 같게 만들면 된다.
+
+`views.py`
+~~~
+...
+
+        elif intent == "스위플주문":
+            params = req.get('queryResult').get('parameters')
+            return create_delivery(request, params)
+
+...
+
+def create_delivery(request, params):
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTYxODE2MTgsLTEzODQ3NjQ3MzUsMT
-A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
-MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbNjk0ODcwMTg1LC0xMzg0NzY0NzM1LDEwOD
+QwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5OTEyNiwtOTAwNzE3
+NTIwXX0=
 -->
