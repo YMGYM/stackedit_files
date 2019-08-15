@@ -122,12 +122,12 @@ class Delivery(models.Model):
 
 DF의 파라미터는 다음과 같은 속성이 있다.
 
-- required 
+- required : 이 파라미터값이 꼭 필요한지 나타낸다.
 - parameter name
 - entity
 - value
 - prompts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjgyNTA1MywxMDg0MDczNjMsLTE5OD
+eyJoaXN0b3J5IjpbMTA2NjI5MjYwMCwxMDg0MDczNjMsLTE5OD
 U1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
 -->
