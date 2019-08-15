@@ -179,8 +179,12 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 `.format`은 스트링 중간에 변수를 사용하는 법이라더라.. {{ }} 도 뭔가 사용할 수 있을 것 같은데, 아직 써 보지는 못했다.. 나중에
 
 이렇게 하면, 데이터베이스에 주문이 기록되는 것을 볼 수 있다.
+
+
+
+## Rea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzM4MjQ3MiwtMTM4NDc2NDczNSwxMD
-g0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcx
-NzUyMF19
+eyJoaXN0b3J5IjpbLTE4Mzc3NzM5MCwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
