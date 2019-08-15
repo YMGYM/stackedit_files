@@ -286,6 +286,8 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 
 `views.py`
 ~~~python
+...
+
 def create_delivery(request, params):
     
     taste = params.get('taste')
@@ -308,9 +310,11 @@ def create_delivery(request, params):
     }
     
     return JsonResponse(response, safe=False)
+ ...
+    
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDQ2MjIyMywxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbNDcyNzMwMjE5LDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
