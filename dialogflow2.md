@@ -95,8 +95,25 @@ def ad(request):
 
 ## Create
 
-챗봇을 할 때 가장 쉬운
+챗봇을 할 때 create를 할 때 가장 들기 쉬운 예제가 제품 주문인 듯하다..
+많은 사람들이 제품 주문으로 예를 들고 있다.
+따라서 나도 스위플 주문하는 것으로 만들어 보겠다.
+
+우선 model을 하나 더 만들어서 migration 했다.
+
+`models.py`
+~~~python
+class Delivery(models.Model):
+    taste = models.CharField(max_length=20)
+    number = models.IntegerField()
+    name = models.CharField(max_length=20)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    
+    def __str__(self):
+        return self.name
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTkyMTUzLC0xOTg1NTM3MzQ0LC0xOT
+eyJoaXN0b3J5IjpbMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOT
 IyMTk5MTI2LC05MDA3MTc1MjBdfQ==
 -->
