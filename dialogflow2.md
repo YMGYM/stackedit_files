@@ -201,9 +201,11 @@ intent목록에서 `sweeple order` 의 follow-up intent를 만들었다.
 `<부모 intent명>-followup`이라는 context를 생성해 준다.
 context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 경우 사용자가 메세지를 5번 보낼 때 까지 남아 있는다.
 
+### intent 작성하기.
+자식 인텐트에서 배달을 해 주냐는 투의 프레이즈를 작성했다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTExODU0MTAsMTEzNzM4MjQ3MiwtMT
-M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
-OTkxMjYsLTkwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbOTkwNzg3NDgwLDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
