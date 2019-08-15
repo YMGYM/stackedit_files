@@ -310,11 +310,9 @@ def create_delivery(request, params):
     }
     
     return JsonResponse(response, safe=False)
- ...
-    
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNzMwMjE5LDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbLTE0MDg2NTQ4NTUsMTEzNzM4MjQ3MiwtMT
+M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
+OTkxMjYsLTkwMDcxNzUyMF19
 -->
