@@ -165,9 +165,24 @@ def create_delivery(request, params):
 ...
 ~~~
 
+마지막으로 주문을 나중에 쉽게 확인할 수 있도록, 주문번호를 사용해야 하는데, 일단은 pk값을 주문번호로 주도록 하겠다.
+item이라는 변수를 사용하고 있어서 `item.id`를 사용할 수 있을까? 했더니 진짜 사용할 수 있더라.. 대단하다.
 
+`views.py`
+~~~python
+...
+
+def create_delivery(request, params):
+    
+    taste = params.get('taste')
+    name = params.get('name')
+    number = params.get('number')
+    item = Delivery(taste = taste, name=name, number=number)
+    item.save()
+...
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY3MjYzMDUsLTEzODQ3NjQ3MzUsMT
+eyJoaXN0b3J5IjpbLTEwNDE0NjMyMzgsLTEzODQ3NjQ3MzUsMT
 A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
 MTc1MjBdfQ==
 -->
