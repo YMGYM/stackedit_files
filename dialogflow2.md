@@ -163,10 +163,9 @@ def create_delivery(request, params):
     item = Delivery(taste = taste, name=name, number=number)
     item.save()
 ...
-    
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NzA5NTI1LC0xMzg0NzY0NzM1LDEwOD
+eyJoaXN0b3J5IjpbMjU4MjExNzE1LC0xMzg0NzY0NzM1LDEwOD
 QwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5OTEyNiwtOTAwNzE3
 NTIwXX0=
 -->
