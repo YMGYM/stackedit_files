@@ -65,8 +65,10 @@ def action(request):
 
 #### 여담 'post' 와 'POST'
 
-한참 작업하고 있는데, 갑자기 오류를 뱉길래 
+한참 작업하고 있는데, 갑자기 오류를 뱉길래 원인을 한참 찾았더니 POST가 소문자로 적혀있었다... django는 HTTP 메소드의 대소문자를 구분하는것 같다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NTI4ODQxOSwtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbMjEyODI4MjgxNSwtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
