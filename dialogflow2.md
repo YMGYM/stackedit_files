@@ -123,11 +123,11 @@ class Delivery(models.Model):
 DF의 파라미터는 다음과 같은 속성이 있다.
 
 - required : 이 파라미터값이 꼭 필요한지 나타낸다.
-- parameter name
-- entity
-- value
-- prompts
+- parameter name : 파라미터의 이름이다. @ 뒤에 나타낸다.
+- entity : 파라미터 값이 어떤 `entity`를 가지는지 나타낸다.
+- value :  파라미터 값을 변수처럼 사용하게 한다 . $ 뒤에 나타낸다.
+- prompts : requei
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjI5MjYwMCwxMDg0MDczNjMsLTE5OD
+eyJoaXN0b3J5IjpbMTc0NzIxMDEzNywxMDg0MDczNjMsLTE5OD
 U1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
 -->
