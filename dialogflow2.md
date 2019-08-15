@@ -233,7 +233,7 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
     ],
     "outputContexts": [
       {
-        "name": "projects/sweeple-delivery-bot-saxdfa/agent/sessions/ec79f53c-31b2-3a18-998f-32cb63c3a6f2/contexts/order",
+        "name": "projects/<project-name>/agent/sessions/<sessiion-name>/contexts/order",
         "lifespanCount": 1,
         "parameters": {
           "name.original": "지수",
@@ -277,7 +277,7 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 }
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjU3NTU3NywxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbNjM0MTM4MTUxLDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
