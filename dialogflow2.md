@@ -51,8 +51,22 @@ DF 로부터의 request는 JSON 형태로 이루어진다.
 }
 ~~~
 
-다른 인자는 차차 살펴보도록 하고, 내가 확인해야할 정보는 
+다른 인자는 차차 살펴보도록 하고, 내가 확인해야할 정보는 'queryResult' 안의 'intent' 안의 'displayName'이다.
+따라서 이것은 다음과 같은 코드를 통해 가져올 수 있다.
+`views.py`
+~~~python
+def action(request):
+    if request.method == 'POST':
+        req = json.loads(request.body)
+        # 인텐트를 파악합니다
+        intent = req.get('queryResult').get('intent').get('displayName')
+~~~
+
+
+#### 여담 'post' 와 'POST'
+
+한참 작업하고 있는데, 갑자기 오류를 뱉길래 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY3MzI3NjIsLTE5MjIxOTkxMjYsLT
-kwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbMTY4NTI4ODQxOSwtMTkyMjE5OTEyNiwtOT
+AwNzE3NTIwXX0=
 -->
