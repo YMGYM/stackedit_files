@@ -155,16 +155,17 @@ def create_delivery(request, params):
 ~~~
 ...
 
-        elif intent == "스위플주문":
-            params = req.get('queryResult').get('parameters')
-            return create_delivery(request, params)
-
-...
-
 def create_delivery(request, params):
+    
+    taste = params.get('taste')
+    name = params.get('name')
+    number = params.get('number')
+    item = Delivery(taste = taste, name=name, number=number)
+    item.save()
+    ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0ODcwMTg1LC0xMzg0NzY0NzM1LDEwOD
+eyJoaXN0b3J5IjpbNTg2Mzg0Mzg3LC0xMzg0NzY0NzM1LDEwOD
 QwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5OTEyNiwtOTAwNzE3
 NTIwXX0=
 -->
