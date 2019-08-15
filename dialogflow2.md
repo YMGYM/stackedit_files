@@ -175,8 +175,12 @@ item이라는 변수를 사용하고 있어서 `item.id`를 사용할 수 있을
 fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입니다.'.format(item.id)}
     return JsonResponse(fulfillmentText, safe=False)
 ~~~
+
+`.format`은 스트링 중간에 변수를 사용하는 법이라더라.. {{ }} 도 뭔가 사용할 수 있을 것 같은데, 아직 써 보지는 못했다.. 나중에
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODQ4MDc4OCwtMTM4NDc2NDczNSwxMD
-g0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcx
-NzUyMF19
+eyJoaXN0b3J5IjpbLTE5NjE1MzE4MzksLTEzODQ3NjQ3MzUsMT
+A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
+MTc1MjBdfQ==
 -->
