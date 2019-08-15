@@ -122,8 +122,12 @@ class Delivery(models.Model):
 
 DF의 파라미터는 다음과 같은 속성이 있다.
 
-- 
+- required 
+- parameter name
+- entity
+- value
+- prompts
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjUzNjEwMTUsMTA4NDA3MzYzLC0xOT
-g1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMjAyNjgyNTA1MywxMDg0MDczNjMsLTE5OD
+U1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
 -->
