@@ -12,7 +12,7 @@ tags:
 
 > 멋쟁이사자처럼 강의를 따라가서 그런건지, 나는 CRUD를 매우 중요하게 여기는 편이다.
 > CRUD만 있으면 웬만한 플랫폼을 다 만들 수 있을 것이라고 생각할 정도다.
-> 따라서 webhook 을 통해서 DF에서도 CRUD를 구현해 보고자 한다.
+> 따라서 webhook 을 통해서 Dialogflow(DF)에서도 CRUD를 구현해 보고자 한다.
 
 ## 다른 view로 넘기기?
 
@@ -21,8 +21,38 @@ tags:
 
 이를 해결하기 위해 우선 임시방편으로 다음과 같은 형태를 취하고자 한다.
 
-- url을 만들지 않아, 주소
+- url을 만들지 않아, 주소창에 직접 입력하는 것으로는 들어갈 수 없게 한다.
+- url을 `action/`하나만 만들어서, `action()`만을 통하게 한다.
+
+
+### intent 파악후, 넘기기
+DF 로부터의 request는 JSON 형태로 이루어진다.
+샘플 요청을 보내 보면 request 내용은 다음과 같다
+~~~json
+{
+  "responseId": "[이 값은 매일 달라집니다.]",
+  "queryResult": {
+    "queryText": "[사용자가 입력한 값]",
+    "parameters": {
+      ...
+    },
+    "allRequiredParamsPresent": true,
+    "intent": {
+      "name": "[인텐트의 ID값인듯]",
+      "displayName": "스위플광고"
+    },
+    "intentDetectionConfidence": 0.7146579,
+    "languageCode": "ko"
+  },
+  "originalDetectIntentRequest": {
+    "payload": {}
+  },
+  "session": "[보안값?]"
+}
+~~~
+
+다른 인자는 차차 살펴보도록 하고, 내가 확인해야할 정보는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU2OTk0MzgsLTE5MjIxOTkxMjYsLT
+eyJoaXN0b3J5IjpbLTEyMDY3MzI3NjIsLTE5MjIxOTkxMjYsLT
 kwMDcxNzUyMF19
 -->
