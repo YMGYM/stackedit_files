@@ -197,6 +197,8 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 이전의 했던 대화를 기억하고, 그 대화 안에 있던 파라미터를 다음 인텐트로 넘겨주는 역할을 한다.
 나는 주문 신청을 한 경우, 주문 내역을 기록하기 위해 `sweeple order`인텐트 안에서 context `order`을 새로 만들었다.
 
+여기서 intent명이 한글인 경우, 자식 intent가 생성되지 않는다.
+
 intent목록에서 `sweeple order` 의 follow-up intent를 만들었다.
 `<부모 intent명>-followup`이라는 context를 생성해 준다.
 context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 경우 사용자가 메세지를 5번 보낼 때 까지 남아 있는다.
@@ -278,8 +280,9 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 ~~~
 
 확인해 보면 'outputContexts'에 context들이 다 저장되어 있다.
+따라서 fulfillmentText에서 한 것 처럼, JSON
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEwNjU3MDUsMTEzNzM4MjQ3MiwtMT
-M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
-OTkxMjYsLTkwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbMTUxODYxMzIwNCwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
