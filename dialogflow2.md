@@ -184,8 +184,8 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 
 ## Read
 
-이제 주문을 헀으니, 주문 확인과 이에 이어 배달유무 확인을 알아보자.
-\
+이제 주문을 헀으니, 주문 확인과 이에 이어 배달유무 확인을 해 보자.
+
 ### Intent는 영어로 작성해야한다.
 
 작업을 하면서 자꾸 오류가 나서 뭐인가 했는데 결론은 intent명이 영어가 아니어서 생긴 문제였다.
@@ -193,7 +193,7 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MzU5NTk3LDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMjE0NTIyODI4MSwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
