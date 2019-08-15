@@ -162,10 +162,11 @@ def create_delivery(request, params):
     number = params.get('number')
     item = Delivery(taste = taste, name=name, number=number)
     item.save()
-    ...
+...
+    
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2Mzg0Mzg3LC0xMzg0NzY0NzM1LDEwOD
+eyJoaXN0b3J5IjpbOTY5NzA5NTI1LC0xMzg0NzY0NzM1LDEwOD
 QwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5OTEyNiwtOTAwNzE3
 NTIwXX0=
 -->
