@@ -242,7 +242,7 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
           "del_number.original": "",
           "taste": "두리안맛",
           "number": 50,
-          "del_number": 42,
+          "del_number": "",
           "taste.original": "두리안맛"
         }
       },
@@ -276,8 +276,10 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
   }
 }
 ~~~
+
+확인해 보면
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM0MTM4MTUxLDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTU4NTkyMTUzOCwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
