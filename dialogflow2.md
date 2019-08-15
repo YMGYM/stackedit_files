@@ -81,12 +81,9 @@ def add(request):
     item = random.choice(sweeples)
     fulfillmentText = {'fulfillmentText': item.taste + ' 스위플은 어떠신가요? ' + item.description}
     return JsonResponse(fulfillmentText, safe=False)
-
-
-
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzY2MzY4MywtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbMTkzNzI4NzIzOSwtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
