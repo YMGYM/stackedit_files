@@ -277,9 +277,9 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 }
 ~~~
 
-확인해 보면
+확인해 보면 'outputContexts'에 context들이 다 저장되어 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTkyMTUzOCwxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbLTEyODEwNjU3MDUsMTEzNzM4MjQ3MiwtMT
+M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
+OTkxMjYsLTkwMDcxNzUyMF19
 -->
