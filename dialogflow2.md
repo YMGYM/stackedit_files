@@ -195,10 +195,11 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 장고에서 CRUD를 할 때는 url에서 <> 을 통해 값을 넘겨 줬다.
 그 역할을 하는 것이 context다.
 이전의 했던 대화를 기억하고, 그 대화 안에 있던 파라미터를 다음 인텐트로 넘겨주는 역할을 한다.
+나는 주문 신청을 한 경우, 주문 내역을 기록하기 위해 context `order`을 새로 만들었다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzEzNzk1NywxMTM3MzgyNDcyLC0xMz
+eyJoaXN0b3J5IjpbMTIzMjU3NDY1OCwxMTM3MzgyNDcyLC0xMz
 g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
 OTEyNiwtOTAwNzE3NTIwXX0=
 -->
