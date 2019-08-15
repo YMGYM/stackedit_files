@@ -92,7 +92,11 @@ def ad(request):
 스위플의 맛이 어떤 것이 있냐는 intent가 오면, `ad()`함수로 넘겨 준다.
 `ad()`에서는 스위플 모델중 아무 값이나 하나 선택해서 제목과 설명을 `fulfillmentText`로 날려 준다.
 
+
+## Create
+
+챗봇을 할 때 가장 쉬운
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU1MzczNDQsLTE5MjIxOTkxMjYsLT
-kwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbMTk3NTkyMTUzLC0xOTg1NTM3MzQ0LC0xOT
+IyMTk5MTI2LC05MDA3MTc1MjBdfQ==
 -->
