@@ -184,7 +184,7 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 
 ## Read
 
-이제 주문을 헀으니, 주문 확인과 이에 이어 배달유무 확인을 해 보자.
+이제 주문을 헀으니, 배달유무 확인과, 주문 확인을 해 보자.
 
 ### Intent는 영어로 작성해야한다.
 
@@ -203,7 +203,7 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTEwMjIwOCwxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbLTE3NTExODU0MTAsMTEzNzM4MjQ3MiwtMT
+M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
+OTkxMjYsLTkwMDcxNzUyMF19
 -->
