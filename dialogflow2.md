@@ -74,6 +74,7 @@ def action(request):
 `views.py`
 ~~~ python
 ...
+
         if intent == "스위플광고":
             return add(request)
 
@@ -86,6 +87,6 @@ def add(request):
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTkxNDgwNSwtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbLTc2MTYyMzMyNSwtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
