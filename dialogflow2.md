@@ -298,7 +298,7 @@ def create_delivery(request, params):
         'fulfillmentText' : '감사합니다. 주문번호는 {} 입니다.'.format(item.id),
           "outputContexts": [
             {
-              "name": "projects/sweeple-delivery-bot-saxdfa/agent/sessions/ec79f53c-31b2-3a18-998f-32cb63c3a6f2/contexts/order",
+              "name": "projects/<project-id>/agent/sessions/<session-id>/contexts/order",
               "lifespanCount": 1,
               "parameters": {
                 "del_number": item.id
@@ -310,7 +310,7 @@ def create_delivery(request, params):
     return JsonResponse(response, safe=False)
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MDU3ODEyLDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbLTg5NDQ2MjIyMywxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
