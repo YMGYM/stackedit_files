@@ -131,10 +131,16 @@ DF의 파라미터는 다음과 같은 속성이 있다.
 이것들을 이용해서, model의 `taste` `name` `number`을 채울 수 있도록 하고, 그걸 장고 서버로 전송했다.
 
 ### view 꾸미기
-이제 남은 것은 단순 작업이다.
-우선
+
+우선 `action()`에서 받은 파라미터값을 다음 함수로 넘겨 주어야 하므로
+다음과 같이 작성한다.
+
+`views.py`
+~~~
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI4NDczNjEsLTEzODQ3NjQ3MzUsMT
+eyJoaXN0b3J5IjpbLTE1MTYxODE2MTgsLTEzODQ3NjQ3MzUsMT
 A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
 MTc1MjBdfQ==
 -->
