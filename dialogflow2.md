@@ -280,9 +280,37 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 ~~~
 
 확인해 보면 'outputContexts'에 context들이 다 저장되어 있다.
-따라서 fulfillmentText에서 한 것 처럼, JSON
+따라서 fulfillmentText에서 한 것 처럼, JSON 으로 보내주면 될 것이다.
+
+따라서 코드는 다음과 같다.
+
+`views.py`
+~~~python
+def create_delivery(request, params):
+    
+    taste = params.get('taste')
+    name = params.get('name')
+    number = params.get('number')
+    item = Delivery(taste = taste, name=name, number=number)
+    item.save()
+    
+    response = {
+        'fulfillmentText' : '감사합니다. 주문번호는 {} 입니다.'.format(item.id),
+          "outputContexts": [
+            {
+              "name": "projects/sweeple-delivery-bot-saxdfa/agent/sessions/ec79f53c-31b2-3a18-998f-32cb63c3a6f2/contexts/order",
+              "lifespanCount": 1,
+              "parameters": {
+                "del_number": item.id
+              }
+            }
+      ]
+    }
+    
+    return JsonResponse(response, safe=False)
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODYxMzIwNCwxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbNjE4MDU3ODEyLDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
