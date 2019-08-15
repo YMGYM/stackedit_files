@@ -55,6 +55,8 @@ DF 로부터의 request는 JSON 형태로 이루어진다.
 따라서 이것은 다음과 같은 코드를 통해 가져올 수 있다.
 `views.py`
 ~~~python
+...
+
 def action(request):
     if request.method == 'POST':
         req = json.loads(request.body)
@@ -84,6 +86,6 @@ def add(request):
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzI4NzIzOSwtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbMTc5NTkxNDgwNSwtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
