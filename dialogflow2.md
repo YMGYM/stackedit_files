@@ -74,6 +74,9 @@ def action(request):
 `views.py`
 ~~~ python
 ...
+from .models import Sweeple
+import random
+...
 
         if intent == "스위플광고":
             return add(request)
@@ -87,6 +90,6 @@ def add(request):
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTYyMzMyNSwtMTkyMjE5OTEyNiwtOT
-AwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbMjgzOTk3Mzg5LC0xOTIyMTk5MTI2LC05MD
+A3MTc1MjBdfQ==
 -->
