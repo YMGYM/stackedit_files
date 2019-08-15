@@ -12,8 +12,9 @@ tags:
 
 > 멋쟁이사자처럼 강의를 따라가서 그런건지, 나는 CRUD를 매우 중요하게 여기는 편이다.
 > CRUD만 있으면 웬만한 플랫폼을 다 만들 수 있을 것이라고 생각할 정도다.
-> 따라서 webhook 을 통해서 DF에서도 CRUD를 
+> 따라서 webhook 을 통해서 DF에서도 CRUD를 구현해 보고자 한다
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbMjE0ODk5NjgyLC0xOTIyMTk5MTI2LC05MD
+A3MTc1MjBdfQ==
 -->
