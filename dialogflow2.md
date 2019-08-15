@@ -117,8 +117,9 @@ class Delivery(models.Model):
 
 ### intent  만들기
 `스위플주문`이란 이름으로 인텐트를 새로 만들었다.
-
+주문을 받기 위해서는 파라미터 값으로, 어떤 제품을 주문 받을지, 몇 개나 필요한지, 그리고 적어도 주문자의 이름 정도는 알아야 한다.
+따라서
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDYxMjQyMiwxMDg0MDczNjMsLTE5OD
+eyJoaXN0b3J5IjpbMTg0Mzk3OTMyMSwxMDg0MDczNjMsLTE5OD
 U1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
 -->
