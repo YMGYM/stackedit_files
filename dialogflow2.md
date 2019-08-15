@@ -79,7 +79,7 @@ import random
 ...
 
         if intent == "스위플광고":
-            return add(request)
+            return ad(request)
 
 
 def ad(request):
@@ -91,6 +91,6 @@ def ad(request):
 
 스위플의 맛이 어떤 것이 있냐는 intent가 오면, ad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4NTIyMzMyLC0xOTIyMTk5MTI2LC05MD
-A3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTUyNTg1OTc2NiwtMTkyMjE5OTEyNiwtOT
+AwNzE3NTIwXX0=
 -->
