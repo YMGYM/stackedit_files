@@ -127,7 +127,14 @@ DF의 파라미터는 다음과 같은 속성이 있다.
 - entity : 파라미터 값이 어떤 `entity`를 가지는지 나타낸다.
 - value :  파라미터 값을 변수처럼 사용하게 한다 . $ 뒤에 나타낸다.
 - prompts : required 파라미터가 충족되지 않았을 때 그것을 묻는 질문이다.
+
+이것들을 이용해서, model의 `taste` `name` `number`을 채울 수 있도록 하고, 그걸 장고 서버로 전송했다.
+
+### view 꾸미기
+이제 남은 것은 단순 작업이다.
+우선
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ3NjQ3MzUsMTA4NDA3MzYzLC0xOT
-g1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbLTEwNDI4NDczNjEsLTEzODQ3NjQ3MzUsMT
+A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
+MTc1MjBdfQ==
 -->
