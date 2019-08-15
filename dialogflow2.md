@@ -311,8 +311,12 @@ def create_delivery(request, params):
     
     return JsonResponse(response, safe=False)
 ~~~
+
+context를 찾을 수 없기에 context의 이름과 ID등 기타 정보를 같이 보내줘야 한다는 것을 몰라 찾는데 오래 걸렸다.. 결국엔 공식 문서에 다 있었다.. 제대로 보자..
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg2NTQ4NTUsMTEzNzM4MjQ3MiwtMT
-M4NDc2NDczNSwxMDg0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIx
-OTkxMjYsLTkwMDcxNzUyMF19
+eyJoaXN0b3J5IjpbOTIxMDA4NTg5LDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
