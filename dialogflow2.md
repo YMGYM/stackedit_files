@@ -82,14 +82,15 @@ import random
             return add(request)
 
 
-def add(request):
+def ad(request):
     sweeples = Sweeple.objects.all()
     item = random.choice(sweeples)
     fulfillmentText = {'fulfillmentText': item.taste + ' 스위플은 어떠신가요? ' + item.description}
     return JsonResponse(fulfillmentText, safe=False)
 ~~~
 
+스위플의 맛이 어떤 것이 있냐는 intent가 오면, ad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzOTk3Mzg5LC0xOTIyMTk5MTI2LC05MD
+eyJoaXN0b3J5IjpbNzg4NTIyMzMyLC0xOTIyMTk5MTI2LC05MD
 A3MTc1MjBdfQ==
 -->
