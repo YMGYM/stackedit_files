@@ -67,8 +67,15 @@ def action(request):
 
 한참 작업하고 있는데, 갑자기 오류를 뱉길래 원인을 한참 찾았더니 POST가 소문자로 적혀있었다... django는 HTTP 메소드의 대소문자를 구분하는것 같다.
 
+이제 이 인텐트를 if문을 통해 구분해서, 다음 함수로 넘기기만 하면 된다.
+
+`views.py`
+~~~ python
+
+
+~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODI4MjgxNSwtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbLTI0NTc1NjkyMiwtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
