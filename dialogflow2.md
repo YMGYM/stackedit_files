@@ -172,17 +172,11 @@ item이라는 변수를 사용하고 있어서 `item.id`를 사용할 수 있을
 ~~~python
 ...
 
-def create_delivery(request, params):
-    
-    taste = params.get('taste')
-    name = params.get('name')
-    number = params.get('number')
-    item = Delivery(taste = taste, name=name, number=number)
-    item.save()
-...
+fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입니다.'.format(item.id)}
+    return JsonResponse(fulfillmentText, safe=False)
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE0NjMyMzgsLTEzODQ3NjQ3MzUsMT
-A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
-MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTgwODQ4MDc4OCwtMTM4NDc2NDczNSwxMD
+g0MDczNjMsLTE5ODU1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcx
+NzUyMF19
 -->
