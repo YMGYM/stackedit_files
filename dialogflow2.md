@@ -203,9 +203,13 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 
 ### intent 작성하기.
 자식 인텐트에서 배달을 해 주냐는 투의 프레이즈를 작성했다.
+이 인텐트의 핵심은 주문번호를 받아서 볼 수 있냐 없냐로 정한다.
+주문번호는 부모 intent에서 `order`context를 통해 받아올 것이다.
+
+### 주문번호 넘겨주기.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwNzg3NDgwLDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTg2NzAwOTM3NiwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
