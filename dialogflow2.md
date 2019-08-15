@@ -314,9 +314,14 @@ def create_delivery(request, params):
 
 context를 찾을 수 없기에 context의 이름과 ID등 기타 정보를 같이 보내줘야 한다는 것을 몰라 찾는데 오래 걸렸다.. 결국엔 공식 문서에 다 있었다.. 제대로 보자..
 
+### 자식 intent에서 context 파라미터 불러오기
 
+그냥 될 줄 알았는데, 한 가지 작업을 더 해줘야 했다.
+parameters를 입력하는 부분에서 value 를
+`#<context-name>.<parameter-name>`으로 설정해 주어야 한다.
+req
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMDA4NTg5LDExMzczODI0NzIsLTEzOD
-Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
-MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMTU3NzA3NTYwOCwxMTM3MzgyNDcyLC0xMz
+g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
+OTEyNiwtOTAwNzE3NTIwXX0=
 -->
