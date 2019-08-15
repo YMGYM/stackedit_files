@@ -319,9 +319,9 @@ context를 찾을 수 없기에 context의 이름과 ID등 기타 정보를 같�
 그냥 될 줄 알았는데, 한 가지 작업을 더 해줘야 했다.
 parameters를 입력하는 부분에서 value 를
 `#<context-name>.<parameter-name>`으로 설정해 주어야 한다.
-required를 True로 만들어 놓아
+required를 True로 만들어 놓아도, context를 통해 넘어온 정보기 때문에 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDc3Mzg0NCwxMTM3MzgyNDcyLC0xMz
+eyJoaXN0b3J5IjpbLTU3NDExMjk2NSwxMTM3MzgyNDcyLC0xMz
 g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
 OTEyNiwtOTAwNzE3NTIwXX0=
 -->
