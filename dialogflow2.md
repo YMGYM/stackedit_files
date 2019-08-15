@@ -207,9 +207,10 @@ context옆에 있는 숫자는 context가 남아 있는 대화의 횟수. 5인 �
 주문번호는 부모 intent에서 `order`context를 통해 받아올 것이다.
 
 ### 주문번호 넘겨주기.
+이제 부모 인텐트의 response를 확인해 보자.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzAwOTM3NiwxMTM3MzgyNDcyLC0xMz
+eyJoaXN0b3J5IjpbMjA4MTAyNzEyOCwxMTM3MzgyNDcyLC0xMz
 g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
 OTEyNiwtOTAwNzE3NTIwXX0=
 -->
