@@ -71,11 +71,22 @@ def action(request):
 
 `views.py`
 ~~~ python
+...
+        if intent == "스위플광고":
+            return add(request)
+
+
+def add(request):
+    sweeples = Sweeple.objects.all()
+    item = random.choice(sweeples)
+    fulfillmentText = {'fulfillmentText': item.taste + ' 스위플은 어떠신가요? ' + item.description}
+    return JsonResponse(fulfillmentText, safe=False)
+
 
 
 ~~~
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTc1NjkyMiwtMTkyMjE5OTEyNiwtOT
+eyJoaXN0b3J5IjpbLTUzMzY2MzY4MywtMTkyMjE5OTEyNiwtOT
 AwNzE3NTIwXX0=
 -->
