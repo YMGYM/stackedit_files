@@ -182,9 +182,18 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 
 
 
-## Rea
+## Read
+
+이제 주문을 헀으니, 주문 확인과 이에 이어 배달유무 확인을 알아보자.
+\
+### Intent는 영어로 작성해야한다.
+
+작업을 하면서 자꾸 오류가 나서 뭐인가 했는데 결론은 intent명이 영어가 아니어서 생긴 문제였다.
+구체적인 이유는 나중에 설명하나, 일단 현재 적힌 인텐트명을 전부 영어로 변환했다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzc3NzM5MCwxMTM3MzgyNDcyLC0xMz
-g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
-OTEyNiwtOTAwNzE3NTIwXX0=
+eyJoaXN0b3J5IjpbMjU2MzU5NTk3LDExMzczODI0NzIsLTEzOD
+Q3NjQ3MzUsMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5
+MTI2LC05MDA3MTc1MjBdfQ==
 -->
