@@ -136,7 +136,7 @@ DF의 파라미터는 다음과 같은 속성이 있다.
 다음과 같이 작성한다.
 
 `views.py`
-~~~
+~~~python
 ...
 
         elif intent == "스위플주문":
@@ -152,7 +152,7 @@ def create_delivery(request, params):
 그리고 이제 view에서 배웠던 Create와 같게 만들면 된다.
 
 `views.py`
-~~~
+~~~python
 ...
 
 def create_delivery(request, params):
@@ -164,8 +164,10 @@ def create_delivery(request, params):
     item.save()
 ...
 ~~~
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MjExNzE1LC0xMzg0NzY0NzM1LDEwOD
-QwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5OTEyNiwtOTAwNzE3
-NTIwXX0=
+eyJoaXN0b3J5IjpbLTEwNDY3MjYzMDUsLTEzODQ3NjQ3MzUsMT
+A4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOTIyMTk5MTI2LC05MDA3
+MTc1MjBdfQ==
 -->
