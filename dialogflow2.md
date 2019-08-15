@@ -191,9 +191,12 @@ fulfillmentText = {'fulfillmentText' : '감사합니다. 주문번호는 {} 입�
 작업을 하면서 자꾸 오류가 나서 뭐인가 했는데 결론은 intent명이 영어가 아니어서 생긴 문제였다.
 구체적인 이유는 나중에 설명하나, 일단 현재 적힌 인텐트명을 전부 영어로 변환했다.
 
-
+### context
+장고에서 CRUD를 할 때는 url에서 <> 을 통해 값을 넘겨 줬다.
+그 역할을 하는 것이 context다.
+이전의
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTIyODI4MSwxMTM3MzgyNDcyLC0xMz
+eyJoaXN0b3J5IjpbLTUxODg1MTgzOSwxMTM3MzgyNDcyLC0xMz
 g0NzY0NzM1LDEwODQwNzM2MywtMTk4NTUzNzM0NCwtMTkyMjE5
 OTEyNiwtOTAwNzE3NTIwXX0=
 -->
