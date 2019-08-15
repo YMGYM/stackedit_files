@@ -113,7 +113,12 @@ class Delivery(models.Model):
     def __str__(self):
         return self.name
 ~~~
+
+
+### intent  만들기
+`스위플주문`이란 이름으로 인텐트를 새로 만들었다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDA3MzYzLC0xOTg1NTM3MzQ0LC0xOT
-IyMTk5MTI2LC05MDA3MTc1MjBdfQ==
+eyJoaXN0b3J5IjpbMjE0MDYxMjQyMiwxMDg0MDczNjMsLTE5OD
+U1MzczNDQsLTE5MjIxOTkxMjYsLTkwMDcxNzUyMF19
 -->
