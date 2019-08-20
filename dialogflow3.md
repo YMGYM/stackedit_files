@@ -40,8 +40,9 @@ def order_destroy(request, params):
 delete 의 경우는 상당히 쉽게 해결했다.
 Read와 같이 주문번호를 context로 받고, `delete()`함수를 통해 삭제해주면 그만.
 
-하지만 그 후에 context를 삭제해주는 작업이 필욯
+하지만 그 후에 context를 삭제해주는 작업이 필요한 것 같다.
+없는 주문번호를 계속 가지고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQyNjY0MzUsMTA0MTk3NTc3NSwxNT
-QxNjUxOTg3XX0=
+eyJoaXN0b3J5IjpbLTczNjM2MDE5MSwxMDQxOTc1Nzc1LDE1ND
+E2NTE5ODddfQ==
 -->
