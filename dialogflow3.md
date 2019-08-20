@@ -42,7 +42,29 @@ Read와 같이 주문번호를 context로 받고, `delete()`함수를 통해 삭
 
 하지만 그 후에 context를 삭제해주는 작업이 필요한 것 같다.
 없는 주문번호를 계속 가지고 띄워주면 안 되기 때문에, context의 수명을 0으로 지정하는 방법으로 context를 삭제했다.
+
+`view.py`
+~~~python
+def order_destroy(request, params):
+    del_num = params.get('del_num')
+    
+    item = Delivery.objects.get(pk=del_num)
+    item.delete()
+    
+    response = {'fulfillmentText': '말씀하신 {}번 주문이 삭제되었습니다.'.format(int(del_num)),
+                   "outputContexts": [
+                {
+                  "name": "projects/sweeple-delivery-bot-saxdfa/agent/sessions/ec79f53c-31b2-3a18-998f-32cb63c3a6f2/contexts/order",
+                  "lifespanCount": 0,
+                  "parameters": {
+                    "del_number": item.id
+                  }
+                }
+              ]
+        }
+    return JsonResponse(response, safe=False)\
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDQ2MjU1MCwtNzM2MzYwMTkxLDEwND
+eyJoaXN0b3J5IjpbMTY3MTE2NTU5NywtNzM2MzYwMTkxLDEwND
 E5NzU3NzUsMTU0MTY1MTk4N119
 -->
