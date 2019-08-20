@@ -45,6 +45,7 @@ Read와 같이 주문번호를 context로 받고, `delete()`함수를 통해 삭
 
 `view.py`
 ~~~python
+...
 def order_destroy(request, params):
     del_num = params.get('del_num')
     
@@ -65,6 +66,6 @@ def order_destroy(request, params):
     return JsonResponse(response, safe=False)
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjY0MTYyOSwtNzM2MzYwMTkxLDEwND
+eyJoaXN0b3J5IjpbMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwND
 E5NzU3NzUsMTU0MTY1MTk4N119
 -->
