@@ -65,7 +65,12 @@ def order_destroy(request, params):
         }
     return JsonResponse(response, safe=False)
 ~~~
+
+## event에 관해서
+
+event는 채팅이 아닌, 다른 방법으로 intent를 찾는 방법이었다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwND
-E5NzU3NzUsMTU0MTY1MTk4N119
+eyJoaXN0b3J5IjpbMjE0MjE4MTc4LDE5MTA5MDk3MzMsLTczNj
+M2MDE5MSwxMDQxOTc1Nzc1LDE1NDE2NTE5ODddfQ==
 -->
