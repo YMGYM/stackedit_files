@@ -62,9 +62,9 @@ def order_destroy(request, params):
                 }
               ]
         }
-    return JsonResponse(response, safe=False)\
+    return JsonResponse(response, safe=False)
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTE2NTU5NywtNzM2MzYwMTkxLDEwND
+eyJoaXN0b3J5IjpbMTkyMjY0MTYyOSwtNzM2MzYwMTkxLDEwND
 E5NzU3NzUsMTU0MTY1MTk4N119
 -->
