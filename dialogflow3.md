@@ -41,10 +41,8 @@ delete 의 경우는 상당히 쉽게 해결했다.
 Read와 같이 주문번호를 context로 받고, `delete()`함수를 통해 삭제해주면 그만.
 
 하지만 그 후에 context를 삭제해주는 작업이 필요한 것 같다.
-없는 주문번호를 계속 가지고 띄워주면 안 되기 때문에, 다른 변수에 미리 id값을 저장시키고 그 변수를 사용했다.
-
-
+없는 주문번호를 계속 가지고 띄워주면 안 되기 때문에, context의 수명을 0으로 지정하는 방법으로 context를 삭제했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4NjAxMTk2LC03MzYzNjAxOTEsMTA0MT
-k3NTc3NSwxNTQxNjUxOTg3XX0=
+eyJoaXN0b3J5IjpbMTM4NDQ2MjU1MCwtNzM2MzYwMTkxLDEwND
+E5NzU3NzUsMTU0MTY1MTk4N119
 -->
