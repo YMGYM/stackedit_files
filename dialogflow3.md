@@ -14,7 +14,9 @@ tags:
 > 심지어 Update는 생각보다 귀찮은 작업인것을 깨달았고, 안해도 되지 않을까 판단했다..
 > 일단 지금은 Delete와 지금까지 써보지 못했던 event와 action을 확인해 볼 계획이다.
 
-### 
+## action
+
+`action`이란 intent를 구분해 주는 일종의 변수? 느
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzc4NjUxNiwxNTQxNjUxOTg3XX0=
+eyJoaXN0b3J5IjpbMTA0MTk3NTc3NSwxNTQxNjUxOTg3XX0=
 -->
