@@ -16,7 +16,25 @@ tags:
 
 ## action
 
-`action`이란 intent를 구분해 주는 일종의 변수? 느
+`action`이란 intent를 구분해 주는 일종의 변수? 느낌인 듯 하다.
+찾아보니 action은 intent보다 서버에 친화적이라고 한다.
+따라서 서버에서 intent를 활용해 구현하는 것 보다, action을 활용해 구현하는게 맞을 듯 해서 Delete는 action을 활용해 보도록 하겠다.
+
+사용 예는 다음과 같다.
+- parameters 부분에 action칸에 action명을 작성해 준다.
+- 코드를 다음과 같이 작성한다.
+`views.py`
+~~~python
+...
+elif action == 'order_destroy':
+            params = req.get('queryResult').get('parameters')
+            return order_destroy(request, params)
+...
+def order_destroy(request, params):
+...
+
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTk3NTc3NSwxNTQxNjUxOTg3XX0=
+eyJoaXN0b3J5IjpbLTEzODAyMzgzMTUsMTA0MTk3NTc3NSwxNT
+QxNjUxOTg3XX0=
 -->
