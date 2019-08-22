@@ -105,9 +105,11 @@ def destroy_canceled(request):
 
 event를 반환하면 fulfillmentText필드는 자동으로 무시되기 때문에 작성하지 않아도 되었다.
 
-이렇
+이렇게 하면 정상적으로 의도한 intent에 설정된 대답으로 응답한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI0NzczOTIsLTIwMDMwMTcyMTQsMj
-E0MjE4MTc4LDE5MTA5MDk3MzMsLTczNjM2MDE5MSwxMDQxOTc1
-Nzc1LDE1NDE2NTE5ODddfQ==
+eyJoaXN0b3J5IjpbMTg5MzYwMTMwOSwtMjAwMzAxNzIxNCwyMT
+QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
+NzUsMTU0MTY1MTk4N119
 -->
