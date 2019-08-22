@@ -79,9 +79,13 @@ dialogflow 공식 문서에 적힌 절차는 다음과 같다.
 5.  Dialogflow는 사용자에게  **Intent-1**  일치에 대한 응답을 보내는 대신, 이벤트에 구성된  **Intent-2**를 트리거합니다.
 6.  Dialogflow는 최종 사용자가  **Intent-2**  일치를 시작한 것처럼 일치를 진행하고,  **Intent-2**  구성에 지정된 대로 필요한 매개변수와 fulfillment를 처리합니다.
 
+결국 intent1에 대한 응답 대신 fulfillment를 통해 intent2로 이어진 event 를 트리거하면 intent2에 대한 응답이 전송되는 방식이다.
 
+### event 설정
+일단 event를 활용하기 위해 intent를 하나 만들었다.
+나는 `order_destroy-no`가 되었을 경우 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDMwMTcyMTQsMjE0MjE4MTc4LDE5MT
-A5MDk3MzMsLTczNjM2MDE5MSwxMDQxOTc1Nzc1LDE1NDE2NTE5
-ODddfQ==
+eyJoaXN0b3J5IjpbMTY1NDg2MTExMSwtMjAwMzAxNzIxNCwyMT
+QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
+NzUsMTU0MTY1MTk4N119
 -->
