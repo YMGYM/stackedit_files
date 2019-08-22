@@ -68,9 +68,10 @@ def order_destroy(request, params):
 
 ## event에 관해서
 
-event는 채팅이 아닌, 다른 방법으로 intent를 찾는 방법이었다.
+event는 메세지 식 입력이 아닌, 다른 방법으로 intent를 연결하는 방법이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MjE4MTc4LDE5MTA5MDk3MzMsLTczNj
-M2MDE5MSwxMDQxOTc1Nzc1LDE1NDE2NTE5ODddfQ==
+eyJoaXN0b3J5IjpbLTkxNjc5NzExNCwyMTQyMTgxNzgsMTkxMD
+kwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3NzUsMTU0MTY1MTk4
+N119
 -->
