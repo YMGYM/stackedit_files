@@ -85,9 +85,25 @@ dialogflow 공식 문서에 적힌 절차는 다음과 같다.
 ### event 설정
 일단 event를 활용하기 위해 intent를 하나 만들었다.
 나는 `order_destroy-no`가 되었을 경우 응답을 설정하기 위해 `destroy_canceled` 라는 event를 만들었다.
-그리고 event를 호출하는 Json을 
+그리고 event를 호출하는 Json을 반환하면 된다.
+
+`views.py`
+~~~python
+...
+
+def destroy_canceled(request):
+    response = {
+          "followupEventInput": {
+            "name": "destroy_canceled",
+            "languageCode": "ko"
+          }
+        }
+
+    
+    return JsonResponse(response, safe=False)
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzQ2OTY4NywtMjAwMzAxNzIxNCwyMT
+eyJoaXN0b3J5IjpbLTkzMTM5OTg2NywtMjAwMzAxNzIxNCwyMT
 QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
 NzUsMTU0MTY1MTk4N119
 -->
