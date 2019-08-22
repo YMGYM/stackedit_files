@@ -102,8 +102,12 @@ def destroy_canceled(request):
     
     return JsonResponse(response, safe=False)
 ~~~
+
+event를 반환하면 fulfillmentText필드는 자동으로 무시되기 때문에 작성하지 않아도 되었다.
+
+이렇
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTM5OTg2NywtMjAwMzAxNzIxNCwyMT
-QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
-NzUsMTU0MTY1MTk4N119
+eyJoaXN0b3J5IjpbLTEyMDI0NzczOTIsLTIwMDMwMTcyMTQsMj
+E0MjE4MTc4LDE5MTA5MDk3MzMsLTczNjM2MDE5MSwxMDQxOTc1
+Nzc1LDE1NDE2NTE5ODddfQ==
 -->
