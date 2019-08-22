@@ -113,8 +113,13 @@ event를 반환하면 fulfillmentText필드는 자동으로 무시되기 때문�
 이렇게 하면 정상적으로 의도한 intent에 설정된 대답으로 응답한다.
 
 
+
+## 마무리
+이상으로 dialogflow에 있는 모든 기능들을 다 알아본 것 같다.
+마구잡이식으로 공부해서 작성하다보니, 구조도 많이 꼬이고, 모델이나 intent 등 재설계하고 싶은 부분이 많이 있다.
+다음에는 최대한 완벽하고 설명하기 쉬운 구조를 향해서 프로젝트를 설정하고, git에 올려 보고 싶다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1ODM3NTA4LC0yMDAzMDE3MjE0LDIxND
-IxODE3OCwxOTEwOTA5NzMzLC03MzYzNjAxOTEsMTA0MTk3NTc3
-NSwxNTQxNjUxOTg3XX0=
+eyJoaXN0b3J5IjpbLTEyMjMwODAzMjEsLTIwMDMwMTcyMTQsMj
+E0MjE4MTc4LDE5MTA5MDk3MzMsLTczNjM2MDE5MSwxMDQxOTc1
+Nzc1LDE1NDE2NTE5ODddfQ==
 -->
