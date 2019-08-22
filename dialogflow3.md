@@ -73,6 +73,7 @@ event는 메세지 식 입력이 아닌, 다른 방법으로 intent를 연결하
 
 dialogflow 공식 문서에 적힌 절차는 다음과 같다.
 
+-
 1. 최종 사용자가 발화를 입력하거나 말합니다.
 2.  Dialogflow가 fulfillment에 구성된  **Intent-1**에 발화를 일치시킵니다.
 3.  Dialogflow가 서버에 웹훅 요청을 보냅니다.
@@ -109,7 +110,7 @@ event를 반환하면 fulfillmentText필드는 자동으로 무시되기 때문�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzYwMTMwOSwtMjAwMzAxNzIxNCwyMT
+eyJoaXN0b3J5IjpbMTkwOTIwNzQ0OCwtMjAwMzAxNzIxNCwyMT
 QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
 NzUsMTU0MTY1MTk4N119
 -->
