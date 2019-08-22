@@ -78,8 +78,10 @@ dialogflow 공식 문서에 적힌 절차는 다음과 같다.
 4.  서버가 후속 조치 이벤트가 포함된 웹훅 응답으로 응답합니다.
 5.  Dialogflow는 사용자에게  **Intent-1**  일치에 대한 응답을 보내는 대신, 이벤트에 구성된  **Intent-2**를 트리거합니다.
 6.  Dialogflow는 최종 사용자가  **Intent-2**  일치를 시작한 것처럼 일치를 진행하고,  **Intent-2**  구성에 지정된 대로 필요한 매개변수와 fulfillment를 처리합니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTA3MzgzOTQsMjE0MjE4MTc4LDE5MT
+eyJoaXN0b3J5IjpbLTIwMDMwMTcyMTQsMjE0MjE4MTc4LDE5MT
 A5MDk3MzMsLTczNjM2MDE5MSwxMDQxOTc1Nzc1LDE1NDE2NTE5
 ODddfQ==
 -->
