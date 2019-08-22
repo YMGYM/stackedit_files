@@ -92,6 +92,9 @@ dialogflow 공식 문서에 적힌 절차는 다음과 같다.
 `views.py`
 ~~~python
 ...
+    elif action == 'sweeple_order_destroy-no':
+            return destroy_canceled(request)
+...
 
 def destroy_canceled(request):
     response = {
@@ -111,7 +114,7 @@ event를 반환하면 fulfillmentText필드는 자동으로 무시되기 때문�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzI3ODY2NywtMjAwMzAxNzIxNCwyMT
-QyMTgxNzgsMTkxMDkwOTczMywtNzM2MzYwMTkxLDEwNDE5NzU3
-NzUsMTU0MTY1MTk4N119
+eyJoaXN0b3J5IjpbODY1ODM3NTA4LC0yMDAzMDE3MjE0LDIxND
+IxODE3OCwxOTEwOTA5NzMzLC03MzYzNjAxOTEsMTA0MTk3NTc3
+NSwxNTQxNjUxOTg3XX0=
 -->
