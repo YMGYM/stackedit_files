@@ -53,8 +53,8 @@ Update
 >
 
 Delete
-> event
+> event, context 삭제
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDg2MjQ2Miw2OTEyOTU2NjIsLTEwNT
+eyJoaXN0b3J5IjpbLTYwNTg1MTI4Niw2OTEyOTU2NjIsLTEwNT
 U0MDY2MTZdfQ==
 -->
