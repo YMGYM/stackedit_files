@@ -77,7 +77,7 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 ...
 "parameters": {
       "name": "[주문자 이름]",
-      "content": "[co]"
+      "content": "[주문된 상품]"
     },
 ...
 ~~~
@@ -106,7 +106,7 @@ parameters는 다음과 같습니다.
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI5ODk2NzEsMTUzMTYxOTczNSw5NT
+eyJoaXN0b3J5IjpbLTEwMzg0MDA4NzYsMTUzMTYxOTczNSw5NT
 Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
 NjIsLTEwNTU0MDY2MTZdfQ==
 -->
