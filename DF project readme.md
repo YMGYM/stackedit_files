@@ -25,7 +25,7 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 
 ## CRUD
 
-CRUD 각 기능 별로
+CRUD 각 기능 별로 사용되는 dialogflow의 기능은 다음고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTkxODkyNCwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbMTA4NDE2OTAzNCwtMTA1NTQwNjYxNl19
 -->
