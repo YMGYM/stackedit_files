@@ -18,7 +18,7 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 ### model 구성
 
 샘플 모델로 주문자의 정보와 내용을 저장하는 `Order` 모델을 작성해 두었습니다. 
-주문자의 이름을 작성하는 `name` 열과, 주문 내용(주문한 제품)을 기록하는 `content` 열로 ㅈ 
+주문자의 이름을 작성하는 `name` 열과, 주문 내용(주문한 제품)을 기록하는 `content` 열로 저장되어 있으며, `__str__` 함수를 통해 admin 사이 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2MDczNzQ1XX0=
+eyJoaXN0b3J5IjpbLTEyMDE1MjQ4MTldfQ==
 -->
