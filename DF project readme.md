@@ -114,7 +114,8 @@ Delete는 follow-up intent를 사용해 yes 와 no로 구분됩니다.
 
 #### yes
 yes의 경우 parameters를 통해 delete를 수행합니다.
-parameters에는 
+parameters에는 update에서의 내용과 같습니다.
+
 삭제 후 id값을 포함한 context를 모두 삭제해야 하기 때문에 `lifespan`을 0으로 주어 context를 삭제합니다.
 
 ~~~json
@@ -130,7 +131,7 @@ response = {'fulfillmentText': '성공적으로 삭제되었습니다.',
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5MDAwNTIwLC0xNTU3MzAxNTg2LDE1Mz
-E2MTk3MzUsOTU2ODg1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEz
-NDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbMTYxNzMzOTk3NCwtMTU1NzMwMTU4NiwxNT
+MxNjE5NzM1LDk1Njg4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUx
+MzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
 -->
