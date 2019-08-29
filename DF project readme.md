@@ -97,8 +97,16 @@ create와 똑같이 context를 반환합니다.
 parameters로 전송된 속성을 사용해 update합니다.
 parameters는 다음과 같습니다.
 
+~~~json
+...
+"parameters": {
+      "order_number": 2,
+      "content": "피자"
+    }
+    ...
+~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc0NDcxODIsMTUzMTYxOTczNSw5NT
-Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
-NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbMTMxMjI2NTM5OSwxNTMxNjE5NzM1LDk1Nj
+g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
+MiwtMTA1NTQwNjYxNl19
 -->
