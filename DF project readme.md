@@ -100,13 +100,13 @@ parameters는 다음과 같습니다.
 ~~~json
 ...
 "parameters": {
-      "order_number": [(int)order_number],
+      "order_number": "[(int)order_number]",
       "content": "[수정된 주문 내용]"
     }
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg0MDA4NzYsMTUzMTYxOTczNSw5NT
-Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
-NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbNzQ2NTM1MTI0LDE1MzE2MTk3MzUsOTU2OD
+g1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYy
+LC0xMDU1NDA2NjE2XX0=
 -->
