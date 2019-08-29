@@ -114,9 +114,9 @@ Delete는 follow-up intent를 사용해 yes 와 no로 구분됩니다.
 
 #### yes
 yes의 경우 parameters를 통해 delete를 수행합니다.
-
+삭제 후 id값을 포함한 context를 모두 삭제해야 하기 때문에 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTc3OTIxNCwtMTU1NzMwMTU4NiwxNT
-MxNjE5NzM1LDk1Njg4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUx
-MzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbLTE1MDg3NzY1MzIsLTE1NTczMDE1ODYsMT
+UzMTYxOTczNSw5NTY4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1
+MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
 -->
