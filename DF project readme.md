@@ -110,9 +110,12 @@ create와 똑같이 context를 반환합니다.
 
 ### order_delete
 
-Delete는 follow-up intent를 사용해 
+Delete는 follow-up intent를 사용해 yes 와 no로 구분됩니다.
+
+#### yes
+yes의 경우 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTczMDE1ODYsMTUzMTYxOTczNSw5NT
-Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
-NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbMTYwNjE5Mzg0NCwtMTU1NzMwMTU4NiwxNT
+MxNjE5NzM1LDk1Njg4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUx
+MzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
 -->
