@@ -27,12 +27,23 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 
 `views.py` 에는 JSON타입 반환과 CSRF 토큰 오류를 방지하기 위해 다음과 같은 코드가 들어 있습니다.
 
+~~~python
+...
+# JSON 타입 반환을 위해 import
+from django.http import JsonResponse
+import json
+
+#csrf 예외를 위해 import
+from django.views.decorators.csrf import csrf_exempt
+
+@csrf_exempt
+...
+~~~
 ## CRUD
 
 CRUD 각 기능 별로 사용되는 dialogflow의 요소들은 다음과 같으며, 각 요소는 최초로 다뤄진 부분에서 간략하게 설명합니다.
 
 > Create - fulfillment 연결, parameters, context
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTc1MTMzMDIsLTEwNTU0MDY2MTZdfQ
-==
+eyJoaXN0b3J5IjpbMzgxOTAwMzMsLTEwNTU0MDY2MTZdfQ==
 -->
