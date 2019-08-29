@@ -12,6 +12,8 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 ### app 구성
 
 `dialogflow_project` 프로젝트 안에 `crud` 앱을 만들고, `settings.py`에 추가 해 둔 상태입니다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxMTUwMzFdfQ==
+eyJoaXN0b3J5IjpbMzA5NDQwNjQ1XX0=
 -->
