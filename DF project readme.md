@@ -62,8 +62,8 @@ Delete
 
 ### webhook
 
-`webhook()` 에서는 
+`webhook()` 에서는 request를 POST형식으로 받아 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjU3MjU3ODIsNjkxMjk1NjYyLC0xMD
+eyJoaXN0b3J5IjpbLTEwMzU3NjU4OTYsNjkxMjk1NjYyLC0xMD
 U1NDA2NjE2XX0=
 -->
