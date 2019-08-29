@@ -58,12 +58,12 @@ Delete
 
 ## Code 설명
 
-`views.py`의 
+`views.py`의 함수별로 나눠서 설명하도록 하겠습니다.
 
 ### webhook
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjcwMDQ3OSw2OTEyOTU2NjIsLTEwNT
+eyJoaXN0b3J5IjpbLTk0NTM1ODA1NCw2OTEyOTU2NjIsLTEwNT
 U0MDY2MTZdfQ==
 -->
