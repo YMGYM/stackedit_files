@@ -44,6 +44,8 @@ from django.views.decorators.csrf import csrf_exempt
 CRUD 각 기능 별로 사용되는 dialogflow의 요소들은 다음과 같으며, 각 요소는 최초로 다뤄진 부분에서 간략하게 설명합니다.
 
 > Create - fulfillment 연결, parameters, context
+> Read - 
+> Update - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxOTAwMzMsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbMzY0MjIxNzk2LC0xMDU1NDA2NjE2XX0=
 -->
