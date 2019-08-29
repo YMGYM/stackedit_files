@@ -146,8 +146,10 @@ response = {
         }
 ...
 ~~~
+
+이를 위해 order_view intent의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQzOTQwMDYsNTIwNzAxNjk2LC0xNT
+eyJoaXN0b3J5IjpbLTE0MjUxMDI1MDQsNTIwNzAxNjk2LC0xNT
 U3MzAxNTg2LDE1MzE2MTk3MzUsOTU2ODg1NjQ0LC0xNTc3NTY0
 MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX
 0=
