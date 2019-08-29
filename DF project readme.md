@@ -1,6 +1,6 @@
 # Django Dialogflow Websever
 
-django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 있는 샘플 코드입니다. dialogflow의 
+django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 있는 샘플 코드입니다. dialogflow 챗봇을 활용해 django 모델 CRUD를 할 수 있게 코드를 작성해 두었습니다.
 
 
 이 자료는 동국대학교 멋쟁이사자처럼 5기 수료생 안민준이 7기 세션을 위해 작성하였습니다.
@@ -25,5 +25,5 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 
 ## CRUD
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbOTQyNTE1MTUxLC0xMDU1NDA2NjE2XX0=
 -->
