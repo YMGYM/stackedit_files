@@ -58,11 +58,12 @@ Delete
 
 ## Code 설명
 
-CRUD 각 요소별로 나눠서 
+CRUD 각 요소별로 나눠서 하나하나 설명하도록 하겠습니다.
+
 ### Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMjYxOTM2LDY5MTI5NTY2MiwtMTA1NT
-QwNjYxNl19
+eyJoaXN0b3J5IjpbLTc1MTk1NTkzNyw2OTEyOTU2NjIsLTEwNT
+U0MDY2MTZdfQ==
 -->
