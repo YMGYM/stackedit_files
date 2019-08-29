@@ -69,8 +69,8 @@ Delete
 
 ### order_create
 
-params 매개변수를 통해 받ㅇ
+params 매개변수를 통해 전송받은 데이터를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzQzNjgwNywxMTQ4NTUxMzQwLDY5MT
+eyJoaXN0b3J5IjpbMjA5OTYzNzMxMywxMTQ4NTUxMzQwLDY5MT
 I5NTY2MiwtMTA1NTQwNjYxNl19
 -->
