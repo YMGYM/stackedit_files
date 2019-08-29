@@ -54,7 +54,10 @@ Update
 
 Delete
 > follow-up context, context 삭제, event,
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODIzMDU4NCw2OTEyOTU2NjIsLTEwNT
-U0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbNzEwNzcyNjkwLDY5MTI5NTY2MiwtMTA1NT
+QwNjYxNl19
 -->
