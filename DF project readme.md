@@ -46,6 +46,7 @@ CRUD 각 기능 별로 사용되는 dialogflow의 요소들은 다음과 같으�
 > Create - fulfillment 연결, parameters, context
 > Read - 
 > Update - 
+> Delete - event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0MjIxNzk2LC0xMDU1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbMTE4NTkzMDA3OCwtMTA1NTQwNjYxNl19
 -->
