@@ -135,7 +135,7 @@ response = {'fulfillmentText': '성공적으로 삭제되었습니다.',
 no 의 경우에는 `order_delete-no` 액션으로 이동합니다.
 이 액션에서는 response를 반환하지 않고, event를 활용해 view intent로 이동시킵니다.
 
-이동 코드는 다음과 같습니다
+ response는 다음과 같습니다
 ~~~json
 response = {
           "followupEventInput": {
@@ -145,8 +145,8 @@ response = {
         }
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA4NjY5NjIsNTIwNzAxNjk2LC0xNT
-U3MzAxNTg2LDE1MzE2MTk3MzUsOTU2ODg1NjQ0LC0xNTc3NTY0
-MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX
-0=
+eyJoaXN0b3J5IjpbMTgwMjE5NDkyOCw1MjA3MDE2OTYsLTE1NT
+czMDE1ODYsMTUzMTYxOTczNSw5NTY4ODU2NDQsLTE1Nzc1NjQw
+MzUsMTE0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ
+==
 -->
