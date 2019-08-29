@@ -58,12 +58,12 @@ Delete
 
 ## Code 설명
 
-`views.py`의 함수별로 나눠서 설명하도록 하겠습니다.
+`views.py`의 action별로 나눠서 설명하도록 하겠습니다.
 
 ### webhook
 
-`webhook()` 에서는 request를 POST형식으로 받아 
+`webhook()` 에서는 request를 POST형식으로 받아 각 액션으로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzU3NjU4OTYsNjkxMjk1NjYyLC0xMD
+eyJoaXN0b3J5IjpbLTE3NDY2NTIyNDQsNjkxMjk1NjYyLC0xMD
 U1NDA2NjE2XX0=
 -->
