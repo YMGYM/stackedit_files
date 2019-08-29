@@ -7,7 +7,7 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 코드에 대한 자세한 설명 또는 제작 과정은 <a href="https://ymgym.github.io/%EC%95%84%ED%94%88%EC%A7%80%EB%A0%81%EC%9D%B4/2019/08/13/dialogflow(1).html">여기</a> 에서 확인할 수 있습니다.
 
 
-## How To
+## Co
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDc4NTk4MjRdfQ==
+eyJoaXN0b3J5IjpbLTM5MDY3ODM1M119
 -->
