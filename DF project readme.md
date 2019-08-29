@@ -147,10 +147,10 @@ response = {
 ...
 ~~~
 
-이를 위해 order_view intent의 
+이를 위해 order_view intent의 event를 order_read로 설정할 필요가 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUxMDI1MDQsNTIwNzAxNjk2LC0xNT
-U3MzAxNTg2LDE1MzE2MTk3MzUsOTU2ODg1NjQ0LC0xNTc3NTY0
-MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX
-0=
+eyJoaXN0b3J5IjpbMjExMjIxNTk5NywtMTQyNTEwMjUwNCw1Mj
+A3MDE2OTYsLTE1NTczMDE1ODYsMTUzMTYxOTczNSw5NTY4ODU2
+NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2NjIsLT
+EwNTU0MDY2MTZdfQ==
 -->
