@@ -24,6 +24,8 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 `Order` 모델은 admin 페이지에 register 되어 있습니다.
 
 ## CRUD
+
+CRUD를 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNTE1MTUxLC0xMDU1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbLTgxMDkzMDIzMSwtMTA1NTQwNjYxNl19
 -->
