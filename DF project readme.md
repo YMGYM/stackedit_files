@@ -21,7 +21,7 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 
 `Order` 모델에는 주문자의 이름을 작성하는 `name` 열과, 주문 내용(주문한 제품)을 기록하는 `content` 열로 저장되어 있으며, `__str__` 함수를 통해 admin 페이지에서 주문자의 이름으로 나타나도록 설정해 두었습니다.
 
-`Order` 모델은 admin 페이지에 register 되어 있으며,  
+`Order` 모델은 admin 페이지에 register 되어 있으며, 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ3MTUxMDJdfQ==
+eyJoaXN0b3J5IjpbNTQ0NjQ5ODMyXX0=
 -->
