@@ -83,8 +83,8 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 ...
 ~~~
 
-`order_create()` 로 연결되는 action은 `order_create` 이기 때문에, 
+`order_create()` 로 연결되는 action은 `order_create` 이기 때문에, 주문 생성 intent의 action을 같게 설정해야 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgyMjQzMzksLTE1Nzc1NjQwMzUsMT
-E0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbOTU2ODg1NjQ0LC0xNTc3NTY0MDM1LDExND
+g1NTEzNDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX0=
 -->
