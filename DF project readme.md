@@ -67,6 +67,7 @@ Delete
 이를 위해 dialogflow 콘솔에서 fulfillment 탭에 Webhook 을 활성화 시키고, URL을 입력해 주어야 합니다.
 
 `action` 변수에 action 명을 담아서 intent를 구분합니다. 
+
 `params` 변수에 request의 parameters를 담아 action으로 매개변수를 통해 전송합니다.
 
 ### order_create
@@ -84,6 +85,6 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxMDI5NDgsLTE1Nzc1NjQwMzUsMT
-E0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbLTYxMTg1NTQ0MiwtMTU3NzU2NDAzNSwxMT
+Q4NTUxMzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
 -->
