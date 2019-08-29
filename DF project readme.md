@@ -83,8 +83,8 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 ...
 ~~~
 
-
+`order_create()` 로 연결되는 action은 `order_create` 이기 때문에, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTg1NTQ0MiwtMTU3NzU2NDAzNSwxMT
-Q4NTUxMzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbLTE2ODgyMjQzMzksLTE1Nzc1NjQwMzUsMT
+E0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
 -->
