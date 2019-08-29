@@ -14,6 +14,11 @@ django를 이용해 google dialogflow 의 fulfillment 기능을 이용할 수 �
 `dialogflow_project` 프로젝트 안에 `crud` 앱을 만들고, `settings.py`에 추가 해 둔 상태입니다.
 
 프로젝트 `urls.py` 에서 `webhook/` 으로 받은 리퀘스트를 `crud` 앱으로 전송합니다. `crud` 에서는 `webhook/` 으로 바로 들어오는 리퀘스트 이외에 어떠한 url도 등록되어 있지 않습니다.
+
+
+### model 구성
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzM3NTIyMV19
+eyJoaXN0b3J5IjpbLTE5MDk3MjMxOF19
 -->
