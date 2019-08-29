@@ -50,11 +50,11 @@ Read
 > context
 
 Update
->
+> context
 
 Delete
 > event, context 삭제
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTg0MDA1MzMsNjkxMjk1NjYyLC0xMD
-U1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbMTExNjc3MzExNCw2OTEyOTU2NjIsLTEwNT
+U0MDY2MTZdfQ==
 -->
