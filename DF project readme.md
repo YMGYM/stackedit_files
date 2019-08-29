@@ -58,12 +58,12 @@ Delete
 
 ## Code 설명
 
-CRUD 각 요소별로 나눠서 하나하나 설명하도록 하겠습니다.
+`views.py`의 
 
 ### webhook
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODcwNzMzODIsNjkxMjk1NjYyLC0xMD
-U1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbMTAwNjcwMDQ3OSw2OTEyOTU2NjIsLTEwNT
+U0MDY2MTZdfQ==
 -->
