@@ -47,7 +47,7 @@ Create
 > fulfillment 연결, parameters, action, context
 
 Read
->
+> cont
 
 Update
 >
@@ -55,5 +55,6 @@ Update
 Delete
 > event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbLTEzNDI2MjI0OTIsNjkxMjk1NjYyLC0xMD
+U1NDA2NjE2XX0=
 -->
