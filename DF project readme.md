@@ -58,10 +58,11 @@ Delete
 
 ## Code 설명
 
+CRUD 각 요소별로 나눠서 
 ### Create
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNTM1MDEsNjkxMjk1NjYyLC0xMDU1ND
-A2NjE2XX0=
+eyJoaXN0b3J5IjpbNTgyMjYxOTM2LDY5MTI5NTY2MiwtMTA1NT
+QwNjYxNl19
 -->
