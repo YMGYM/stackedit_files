@@ -69,8 +69,9 @@ Delete
 
 ### order_create
 
-params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장합니다.
+params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장합니다. 이를 통해 dialogflow에서 parameters를 다음과 같이 설정해야 합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI3MTgxNzEsMTE0ODU1MTM0MCw2OT
+eyJoaXN0b3J5IjpbLTIxNDYwMTYwMDcsMTE0ODU1MTM0MCw2OT
 EyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
 -->
