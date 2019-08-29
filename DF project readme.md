@@ -137,15 +137,17 @@ no 의 경우에는 `order_delete-no` 액션으로 이동합니다.
 
  response는 다음과 같습니다
 ~~~json
+...
 response = {
           "followupEventInput": {
             "name": "order_read",
             "languageCode": "ko"
           }
         }
+      
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjE5NDkyOCw1MjA3MDE2OTYsLTE1NT
+eyJoaXN0b3J5IjpbMTI1MzM2MjY4OCw1MjA3MDE2OTYsLTE1NT
 czMDE1ODYsMTUzMTYxOTczNSw5NTY4ODU2NDQsLTE1Nzc1NjQw
 MzUsMTE0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2MTZdfQ
 ==
