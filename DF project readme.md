@@ -103,10 +103,10 @@ parameters는 다음과 같습니다.
       "order_number": 2,
       "content": "피자"
     }
-    ...
+...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMjI2NTM5OSwxNTMxNjE5NzM1LDk1Nj
+eyJoaXN0b3J5IjpbMTg4MDM5NDI5NSwxNTMxNjE5NzM1LDk1Nj
 g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
 MiwtMTA1NTQwNjYxNl19
 -->
