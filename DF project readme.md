@@ -100,13 +100,13 @@ parameters는 다음과 같습니다.
 ~~~json
 ...
 "parameters": {
-      "order_number": 2,
+      "order_number": [order_number],
       "content": "피자"
     }
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDM5NDI5NSwxNTMxNjE5NzM1LDk1Nj
-g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
-MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbLTIwNDU4MjQzMTcsMTUzMTYxOTczNSw5NT
+Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
+NjIsLTEwNTU0MDY2MTZdfQ==
 -->
