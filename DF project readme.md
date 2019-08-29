@@ -62,8 +62,9 @@ Delete
 
 ### webhook
 
-`webhook()` 에서는 request를 POST형식으로 받아 각 액션으로 
+`webhook()` 에서는 request를 POST형식으로 받아 각 액션으로 전송합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY2NTIyNDQsNjkxMjk1NjYyLC0xMD
-U1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbLTMyMjM3NDAyOCw2OTEyOTU2NjIsLTEwNT
+U0MDY2MTZdfQ==
 -->
