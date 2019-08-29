@@ -84,9 +84,9 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 
 `order_create()` 로 연결되는 action은 `order_create` 이기 때문에, 주문 생성 intent의 action을 같게 설정해야 합니다.
 
-create 이후에 context로 
+create 이후에 context로 저장된 모델 id를 반환합니다. 이는 주문번호로 사용됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM2NjE3MDQsOTU2ODg1NjQ0LC0xNT
-c3NTY0MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYyLC0xMDU1NDA2
-NjE2XX0=
+eyJoaXN0b3J5IjpbMTUzMTYxOTczNSw5NTY4ODU2NDQsLTE1Nz
+c1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2NjIsLTEwNTU0MDY2
+MTZdfQ==
 -->
