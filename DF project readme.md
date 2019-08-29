@@ -91,8 +91,13 @@ create 이후에 `outputContexts` 요소를 사용해 모델 id를 포함한 con
 order context의 `order_number` 를 사용해 데이터를 read합니다.
 
 create와 똑같이 context를 반환합니다.
+
+### order_update
+
+parameters로 전송된 속성을 사용해 update합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDA1ODc0MywxNTMxNjE5NzM1LDk1Nj
-g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
-MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbNzk2Mjg1MDUyLDE1MzE2MTk3MzUsOTU2OD
+g1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYy
+LC0xMDU1NDA2NjE2XX0=
 -->
