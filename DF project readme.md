@@ -74,12 +74,12 @@ params 매개변수를 통해 전송받은 데이터를 `Order` 모델에 저장
 ~~~JSON
 ...
 "parameters": {
-      "name": "안민준",
-      "content": "피자"
+      "name": "<name>",
+      "content": "<content>"
     },
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMwMTcyNjUsMTE0ODU1MTM0MCw2OT
-EyOTU2NjIsLTEwNTU0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbLTYxMjg3NjIyNSwxMTQ4NTUxMzQwLDY5MT
+I5NTY2MiwtMTA1NTQwNjYxNl19
 -->
