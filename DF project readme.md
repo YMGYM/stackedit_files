@@ -95,9 +95,10 @@ create와 똑같이 context를 반환합니다.
 ### order_update
 
 parameters로 전송된 속성을 사용해 update합니다.
+parameters는 다음과 같습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2Mjg1MDUyLDE1MzE2MTk3MzUsOTU2OD
-g1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYy
-LC0xMDU1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbLTE4NDc0NDcxODIsMTUzMTYxOTczNSw5NT
+Y4ODU2NDQsLTE1Nzc1NjQwMzUsMTE0ODU1MTM0MCw2OTEyOTU2
+NjIsLTEwNTU0MDY2MTZdfQ==
 -->
