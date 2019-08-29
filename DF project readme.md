@@ -53,8 +53,8 @@ Update
 > context
 
 Delete
-> follow-up context, context 삭제 event,
+> follow-up context, context 삭제, event,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk5OTY2NTIsNjkxMjk1NjYyLC0xMD
-U1NDA2NjE2XX0=
+eyJoaXN0b3J5IjpbLTUxODIzMDU4NCw2OTEyOTU2NjIsLTEwNT
+U0MDY2MTZdfQ==
 -->
