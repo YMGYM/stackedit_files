@@ -64,8 +64,8 @@ Delete
 
 `webhook()` 에서는 request를 POST형식으로 받아 각 액션으로 전송합니다.
 
-`action` 변수에 action 명을 
+`action` 변수에 action 명을 담아서 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTYxNzc1Nyw2OTEyOTU2NjIsLTEwNT
-U0MDY2MTZdfQ==
+eyJoaXN0b3J5IjpbODI0NDY5MDAxLDY5MTI5NTY2MiwtMTA1NT
+QwNjYxNl19
 -->
