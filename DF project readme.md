@@ -65,13 +65,12 @@ Delete
 `webhook()` 에서는 request를 POST형식으로 받아 각 액션으로 전송합니다.
 
 `action` 변수에 action 명을 담아서 intent를 구분합니다. 
-`params` 변수에 request의 parameters를 담아 action으로 매개 변수를 통해 전송합니다.
-
+`params` 변수에 request의 parameters를 담아 action으로 매개변수를 통해 전송합니다.
 
 ### order_create
 
-
+params 매개변수를 통해 받ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjIzODkxMCwxMTQ4NTUxMzQwLDY5MT
+eyJoaXN0b3J5IjpbMTE5NzQzNjgwNywxMTQ4NTUxMzQwLDY5MT
 I5NTY2MiwtMTA1NTQwNjYxNl19
 -->
