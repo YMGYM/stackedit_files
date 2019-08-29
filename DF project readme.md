@@ -101,12 +101,12 @@ parameters는 다음과 같습니다.
 ...
 "parameters": {
       "order_number": [(int)order_number],
-      "content": "피"
+      "content": "[수정된 주문 내용]"
     }
 ...
 ~~~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDg2ODA1NywxNTMxNjE5NzM1LDk1Nj
-g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
-MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbNzM3NDA5MzczLDE1MzE2MTk3MzUsOTU2OD
+g1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEzNDAsNjkxMjk1NjYy
+LC0xMDU1NDA2NjE2XX0=
 -->
