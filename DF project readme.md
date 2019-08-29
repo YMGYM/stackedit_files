@@ -88,9 +88,9 @@ create 이후에 `outputContexts` 요소를 사용해 저장된 모델 id를 반
 
 ### order_read
 
-order context의 `order_number`
+order context의 `order_number` 를 사용해
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODgyODIzMSwxNTMxNjE5NzM1LDk1Nj
+eyJoaXN0b3J5IjpbMTA1ODU1MDE2NCwxNTMxNjE5NzM1LDk1Nj
 g4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUxMzQwLDY5MTI5NTY2
 MiwtMTA1NTQwNjYxNl19
 -->
