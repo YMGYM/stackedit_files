@@ -130,8 +130,12 @@ response = {'fulfillmentText': '성공적으로 삭제되었습니다.',
                }
 ...
 ~~~
+
+#### no
+no 의 경우에는 `order_delete-no` 액션으로 이동합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzMzOTk3NCwtMTU1NzMwMTU4NiwxNT
-MxNjE5NzM1LDk1Njg4NTY0NCwtMTU3NzU2NDAzNSwxMTQ4NTUx
-MzQwLDY5MTI5NTY2MiwtMTA1NTQwNjYxNl19
+eyJoaXN0b3J5IjpbNTIwNzAxNjk2LC0xNTU3MzAxNTg2LDE1Mz
+E2MTk3MzUsOTU2ODg1NjQ0LC0xNTc3NTY0MDM1LDExNDg1NTEz
+NDAsNjkxMjk1NjYyLC0xMDU1NDA2NjE2XX0=
 -->
